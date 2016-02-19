@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D0BB0849-0BB3-4E7B-B6A3-06AFE2FC5CA0}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vauction</RootNamespace>
+    <AssemblyName>Vauction</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\esportsdna\SPA-master\source\bin\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationServer.Caching.Client">
+      <HintPath>packages\ServerAppFabric.Client.1.1.2106.32\lib\net35\Microsoft.ApplicationServer.Caching.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationServer.Caching.Core">
+      <HintPath>packages\ServerAppFabric.Client.1.1.2106.32\lib\net35\Microsoft.ApplicationServer.Caching.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.DistributedCache">
+      <HintPath>packages\Microsoft.Web.DistributedCache.1.0.0\lib\Microsoft.Web.DistributedCache.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Abstractions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 2\Assemblies\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\DataProviderConfigurationElement.cs" />
+    <Compile Include="Configuration\IPropertyConfiguration.cs" />
+    <Compile Include="Configuration\IPropertyConfigurationCollection.cs" />
+    <Compile Include="Configuration\IVauctionConfigurationExtensions.cs" />
+    <Compile Include="Configuration\VauctionConfigurationSection.cs" />
+    <Compile Include="Configuration\PropertyConfigurationElement.cs" />
+    <Compile Include="Configuration\PropertyConfigurationElementCollection.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\AuctionController.cs" />
+    <Compile Include="Controllers\CaptchaController.cs" />
+    <Compile Include="Controllers\ConsignorController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\EventController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PreviewController.cs" />
+    <Compile Include="Controllers\TrckController.cs" />
+    <Compile Include="Controllers\ZipController.cs" />
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomClasses\EditContentParams.cs" />
+    <Compile Include="Models\CustomModels\Address.cs" />
+    <Compile Include="Models\CustomModels\AuctionDetail.cs" />
+    <Compile Include="Models\CustomModels\AuctionResultDetail.cs" />
+    <Compile Include="Models\CustomModels\AuctionShort.cs" />
+    <Compile Include="Models\CustomModels\AuctionUserInfo.cs" />
+    <Compile Include="Models\CustomModels\BiddingHistory.cs" />
+    <Compile Include="Models\CustomModels\BiddingObject.cs" />
+    <Compile Include="Models\CustomClasses\JSONClasses.cs" />
+    <Compile Include="Models\CustomClasses\JsTreeClasses.cs" />
+    <Compile Include="Models\CustomModels\BiddingResult.cs" />
+    <Compile Include="Models\CustomModels\ConsignNowForm.cs" />
+    <Compile Include="Models\CustomModels\UserBidWatch.cs" />
+    <Compile Include="Models\CustomModels\CategoryFilterParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\CategoryMapDetail.cs" />
+    <Compile Include="Models\CustomModels\CreditCardInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\Dow.cs" />
+    <Compile Include="Models\CustomModels\DOWFilterParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\EventCategoryDetail.cs" />
+    <Compile Include="Models\CustomModels\EventDetail.cs" />
+    <Compile Include="Models\CustomModels\FilterParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\ForgotPassword.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\GeneralFilterParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\IdTitle.cs" />
+    <Compile Include="Models\CustomModels\InvoiceDetail.cs" />
+    <Compile Include="Models\CustomModels\LinkParams.cs" />
+    <Compile Include="Models\CustomModels\MyBid.cs" />
+    <Compile Include="Models\CustomModels\PaymentConfirmation.cs" />
+    <Compile Include="Models\CustomModels\PreviewBid.cs" />
+    <Compile Include="Models\CustomModels\RegisterInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\ResendConfirmationCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\SelectionCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CustomModels\TableViewResults.cs" />
+    <Compile Include="Models\CustomModels\UserNew.cs" />
+    <Compile Include="Models\Enums\AppController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Enums\CategoryChildLink.cs" />
+    <Compile Include="Models\Enums\CategoryParentChild.cs" />
+    <Compile Include="Models\Enums\Field.cs" />
+    <Compile Include="Models\Enums\FieldConfiguration.cs" />
+    <Compile Include="Models\Enums\CategoryParentLink.cs" />
+    <Compile Include="Models\Interface\IDiscountUserLimitation.cs" />
+    <Compile Include="Models\Interface\IDiscount.cs" />
+    <Compile Include="Models\Interface\IAuctionResult.cs" />
+    <Compile Include="Models\Interface\IAuctionListingImage.cs" />
+    <Compile Include="Models\Interface\IAuctionListing.cs" />
+    <Compile Include="Models\Interface\IBidLog.cs" />
+    <Compile Include="Models\Interface\ICategoriesMap.cs" />
+    <Compile Include="Models\Interface\IConsignment.cs" />
+    <Compile Include="Models\Interface\IEmail.cs" />
+    <Compile Include="Models\Interface\IMainPageLinkItem.cs" />
+    <Compile Include="Models\Interface\IUserInvoice.cs" />
+    <Compile Include="Models\Interface\Repository\IInvoiceRepository.cs" />
+    <Compile Include="Models\PartialClasses\AuctionListing.cs" />
+    <Compile Include="Models\PartialClasses\AuctionResult.cs" />
+    <Compile Include="Models\PartialClasses\BidCurrent.cs" />
+    <Compile Include="Models\PartialClasses\BidLog.cs" />
+    <Compile Include="Models\PartialClasses\BidLogCurrent.cs" />
+    <Compile Include="Models\PartialClasses\CategoriesMap.cs" />
+    <Compile Include="Models\PartialClasses\Consignment.cs" />
+    <Compile Include="Models\PartialClasses\AuctionListingImage.cs" />
+    <Compile Include="Models\PartialClasses\BidWatchCurrent.cs" />
+    <Compile Include="Models\PartialClasses\DiscountUserLimitation.cs" />
+    <Compile Include="Models\PartialClasses\Discount.cs" />
+    <Compile Include="Models\PartialClasses\Email.cs" />
+    <Compile Include="Models\PartialClasses\MainPageLinkItem.cs" />
+    <Compile Include="Models\PartialClasses\UserInvoice.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\IDataProviderConfiguration.cs" />
+    <Compile Include="Configuration\IDataProviderConfigurationExtensions.cs" />
+    <Compile Include="Configuration\IVauctionConfiguration.cs" />
+    <Compile Include="Models\CustomBinder\CustomItemBinder.cs" />
+    <Compile Include="Models\Interface\IConsignors.cs" />
+    <Compile Include="Models\Interface\IVariable.cs" />
+    <Compile Include="Models\Interface\IPersonalShopperItem.cs" />
+    <Compile Include="Models\Interface\IEventCategory.cs" />
+    <Compile Include="Models\Interface\IState.cs" />
+    <Compile Include="Models\Interface\IAddressCard.cs" />
+    <Compile Include="Models\Interface\IAuction.cs" />
+    <Compile Include="Models\Interface\IAuctionType.cs" />
+    <Compile Include="Models\Interface\IBid.cs" />
+    <Compile Include="Models\Interface\IBidWatch.cs" />
+    <Compile Include="Models\Interface\ICategory.cs" />
+    <Compile Include="Models\Interface\ICountry.cs" />
+    <Compile Include="Models\Interface\IDiscountReason.cs" />
+    <Compile Include="Models\Interface\IEvent.cs" />
+    <Compile Include="Models\Interface\IEventRegistration.cs" />
+    <Compile Include="Models\Interface\IImage.cs" />
+    <Compile Include="Models\Interface\IInvoice.cs" />
+    <Compile Include="Models\Interface\IOuterSubscription.cs" />
+    <Compile Include="Models\Interface\IPayment.cs" />
+    <Compile Include="Models\Interface\IPaymentType.cs" />
+    <Compile Include="Models\Interface\IUser.cs" />
+    <Compile Include="Models\Interface\Repository\IAuctionRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Interface\Repository\IImageRepository.cs" />
+    <Compile Include="Models\Interface\Repository\IBidRepository.cs" />
+    <Compile Include="Models\Interface\Repository\ICountryRepository.cs" />
+    <Compile Include="Models\Interface\Repository\ICategoryRepository.cs" />
+    <Compile Include="Models\Interface\Repository\IEventRepository.cs" />
+    <Compile Include="Models\Interface\Repository\IUserRepository.cs" />
+    <Compile Include="Models\Interface\Repository\IVariableRepository.cs" />
+    <Compile Include="Models\LinqToSqlDataProvider.cs" />
+    <Compile Include="Models\PartialClasses\AddressCard.cs" />
+    <Compile Include="Models\PartialClasses\Auction.cs" />
+    <Compile Include="Models\PartialClasses\AuctionType.cs" />
+    <Compile Include="Models\PartialClasses\Bid.cs" />
+    <Compile Include="Models\PartialClasses\BidWatch.cs" />
+    <Compile Include="Models\PartialClasses\Category.cs" />
+    <Compile Include="Models\PartialClasses\Consignors.cs" />
+    <Compile Include="Models\PartialClasses\PersonalShopperItem.cs" />
+    <Compile Include="Models\PartialClasses\EventCategory.cs" />
+    <Compile Include="Models\PartialClasses\State.cs" />
+    <Compile Include="Models\PartialClasses\Country.cs" />
+    <Compile Include="Models\PartialClasses\DiscountReason.cs" />
+    <Compile Include="Models\PartialClasses\Event.cs" />
+    <Compile Include="Models\PartialClasses\EventRegistration.cs" />
+    <Compile Include="Models\PartialClasses\Image.cs" />
+    <Compile Include="Models\PartialClasses\Invoice.cs" />
+    <Compile Include="Models\PartialClasses\OuterSubscription.cs" />
+    <Compile Include="Models\PartialClasses\Payment.cs" />
+    <Compile Include="Models\PartialClasses\PaymentType.cs" />
+    <Compile Include="Models\PartialClasses\User.cs" />
+    <Compile Include="Models\PartialClasses\Variable.cs" />
+    <Compile Include="Models\Repository\AuctionRepository.cs" />
+    <Compile Include="Models\Repository\CategoryRepository.cs" />
+    <Compile Include="Models\Repository\BidRepository.cs" />
+    <Compile Include="Models\Repository\ImageRepository.cs" />
+    <Compile Include="Models\Repository\InvoiceRepository.cs" />
+    <Compile Include="Models\Repository\CountryRepository.cs" />
+    <Compile Include="Models\Repository\EventRepository.cs" />
+    <Compile Include="Models\Repository\UserRepository.cs" />
+    <Compile Include="Models\Repository\VariableRepository.cs" />
+    <Compile Include="Models\Vauction.cs">
+      <DependentUpon>Vauction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Vauction.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Vauction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IVauctionDataProvider.cs" />
+    <Compile Include="Models\VauctionDataContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\AppHelper.cs" />
+    <Compile Include="Utils\Authorized.NET\AN_Functions.cs" />
+    <Compile Include="Utils\Authorized.NET\SoapAPIUtilities.cs" />
+    <Compile Include="Utils\Autorization\AppSession.cs" />
+    <Compile Include="Utils\Autorization\CrossSessionCheckAttribute.cs" />
+    <Compile Include="Utils\Autorization\FormsAuthenticationService.cs" />
+    <Compile Include="Utils\Autorization\IFormsAuthenticationService.cs" />
+    <Compile Include="Utils\Autorization\VauctionAuthorizeAttribute.cs" />
+    <Compile Include="Utils\Autorization\VauctionIdentity.cs" />
+    <Compile Include="Utils\Autorization\VauctionPrincipal.cs" />
+    <Compile Include="Utils\Autorization\VauctionSessionID.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Autorization\VauctionSessionStateStore.cs" />
+    <Compile Include="Utils\BaseHelpers.cs" />
+    <Compile Include="Utils\Consts.cs" />
+    <Compile Include="Utils\DynamicLibrary.cs" />
+    <Compile Include="Utils\Exceptions\ValidationException.cs" />
+    <Compile Include="Utils\Extentions\DecimalExtensions.cs" />
+    <Compile Include="Utils\Extentions\DateTimeExtensions.cs" />
+    <Compile Include="Utils\Extentions\JSONExtensions.cs" />
+    <Compile Include="Utils\Extentions\RouteValueDictionaryExtensions.cs" />
+    <Compile Include="Utils\Extentions\StringExtensions.cs" />
+    <Compile Include="Utils\Graphics\Thumbnail.cs" />
+    <Compile Include="Utils\Helpers\CollectParams.cs" />
+    <Compile Include="Utils\Helpers\Config.cs" />
+    <Compile Include="Utils\Helpers\DownloadResult.cs" />
+    <Compile Include="Utils\Helpers\ExcelReports.cs" />
+    <Compile Include="Utils\Helpers\HtmlExtensions.cs" />
+    <Compile Include="Utils\Helpers\Mail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Lib\Logger\Logger.cs" />
+    <Compile Include="Utils\Lib\Logger\LoggerEvent.cs" />
+    <Compile Include="Utils\Paging\IPagedList.cs" />
+    <Compile Include="Utils\Paging\PagedList.cs" />
+    <Compile Include="Utils\Paging\Pager.cs" />
+    <Compile Include="Utils\Paging\PagingExtensions.cs" />
+    <Compile Include="Utils\PayPal\PP_Functions.cs" />
+    <Compile Include="Utils\Perfomance\ActionOutputCacheAttribute.cs" />
+    <Compile Include="Utils\Perfomance\AFCDataProvider.cs" />
+    <Compile Include="Utils\Perfomance\AppFabricCacheProviderSystemRegions.cs" />
+    <Compile Include="Utils\Perfomance\CacheAdds.cs" />
+    <Compile Include="Utils\Perfomance\CacheDataProvider.cs" />
+    <Compile Include="Utils\Perfomance\CompressAttribute.cs" />
+    <Compile Include="Utils\Perfomance\DataCacheObject.cs" />
+    <Compile Include="Utils\Perfomance\FileBase.cs" />
+    <Compile Include="Utils\Perfomance\Helpers.cs" />
+    <Compile Include="Utils\Perfomance\ICacheDataProvider.cs" />
+    <Compile Include="Utils\Perfomance\NoCache.cs" />
+    <Compile Include="Utils\Perfomance\VCacheAttribute.cs" />
+    <Compile Include="Utils\Reports\Excel.cs" />
+    <Compile Include="Utils\Routes\IPBlackList.cs" />
+    <Compile Include="Utils\Routes\LegacyURLRoutes.cs" />
+    <Compile Include="Utils\Routes\SslExtention.cs" />
+    <Compile Include="Utils\Security\Encryption.cs" />
+    <Compile Include="Utils\Security\PasswordGenerator.cs" />
+    <Compile Include="Utils\Security\TripleDESECB.cs" />
+    <Compile Include="Utils\UrlParser\UrlParser.cs" />
+    <Compile Include="Utils\Validation\ErrorMessages.cs" />
+    <Compile Include="Utils\Validation\IValidateModel.cs" />
+    <Compile Include="Utils\Validation\MetaDataValidation.cs" />
+    <Compile Include="Utils\Validation\RegularExpressions.cs" />
+    <Compile Include="Utils\Validation\ValidationAttributes.cs" />
+    <Compile Include="Utils\Validation\ValidationCheck.cs" />
+    <Compile Include="Web References\CustomerProfileWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="App_Browsers\generic.browser" />
+    <Content Include="images\product\product-001.jpg" />
+    <Content Include="images\product\product-002.jpg" />
+    <Content Include="images\product\product-003.jpg" />
+    <Content Include="images\product\product-004.jpg" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\SeizedPropertyAuctions %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\SeizedPropertyAuctions.pubxml" />
+    <None Include="Properties\PublishProfiles\SPA-FE.pubxml" />
+    <None Include="Properties\PublishProfiles\SPA.pubxml" />
+    <None Include="Properties\PublishProfiles\SPA_FE.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="public\css\base-class.css" />
+    <Content Include="public\css\bootstrap-datepicker3.css" />
+    <Content Include="public\css\bootstrap-ext.css" />
+    <Content Include="public\css\bootstrap.css" />
+    <Content Include="public\css\combined.css" />
+    <Content Include="public\css\flexslider.css" />
+    <Content Include="public\css\forms.css" />
+    <Content Include="public\css\grabbing.png" />
+    <Content Include="public\css\grid.css" />
+    <Content Include="public\css\hover.css" />
+    <Content Include="public\css\ie_combined.css" />
+    <Content Include="public\css\jqgrid\ui.jqgrid-bootstrap.css" />
+    <Content Include="public\css\main.css" />
+    <Content Include="public\css\owl.carousel.css" />
+    <Content Include="public\css\reset.css" />
+    <Content Include="public\css\screen.css" />
+    <Content Include="public\css\styles.css" />
+    <Content Include="public\css\tiny.css" />
+    <Content Include="public\css\widgets.css" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\images\img-01.jpg" />
+    <Content Include="public\images\img-02.jpg" />
+    <Content Include="public\images\img-03.jpg" />
+    <Content Include="public\images\logo-new.png" />
+    <Content Include="public\scripts\bootstrap.js" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="public\scripts\flexslider.js" />
+    <Content Include="public\scripts\jqgrid\data.json" />
+    <None Include="public\scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="public\scripts\editor\skins\lightgray\content.inline.min.css" />
+    <Content Include="public\scripts\editor\skins\lightgray\content.min.css" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="public\scripts\editor\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="public\scripts\editor\skins\lightgray\img\anchor.gif" />
+    <Content Include="public\scripts\editor\skins\lightgray\img\loader.gif" />
+    <Content Include="public\scripts\editor\skins\lightgray\img\object.gif" />
+    <Content Include="public\scripts\editor\skins\lightgray\img\trans.gif" />
+    <Content Include="public\scripts\editor\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="public\scripts\editor\skins\lightgray\skin.min.css" />
+    <Content Include="public\scripts\editor\themes\modern\theme.min.js" />
+    <Content Include="public\scripts\editor\tinymce.min.js" />
+    <Content Include="public\scripts\jqgrid\bootstrap-datepicker.js" />
+    <Content Include="public\scripts\jqgrid\bootstrap3-typeahead.js" />
+    <Content Include="public\scripts\jqgrid\grid.locale-en.js" />
+    <Content Include="public\scripts\jqgrid\jquery.jqGrid.min.js" />
+    <Content Include="public\scripts\jquery-1.11.0.min.js" />
+    <Content Include="public\scripts\jquery-1.9.1.js" />
+    <Content Include="public\scripts\jquery-1.9.1.min.js" />
+    <Content Include="public\scripts\jquery-migrate-1.2.1.js" />
+    <Content Include="public\scripts\jquery-migrate-1.2.1.min.js" />
+    <Content Include="public\scripts\jquery-ui-1.9.2.js" />
+    <Content Include="public\scripts\jquery-ui-1.9.2.min.js" />
+    <Content Include="public\scripts\owl.carousel.min.js" />
+    <Content Include="public\scripts\scripts.js" />
+    <Content Include="public\scripts\sticky.js" />
+    <Content Include="public\tinymce\langs\readme.md" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\readme.md" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="public\scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\Shared\_TopUserControl.ascx" />
+    <Content Include="Views\Shared\_TopUserControl_1.ascx" />
+    <None Include="Web References\CustomerProfileWS\ANetApiResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\ARBCancelSubscriptionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\ARBCreateSubscriptionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\ARBUpdateSubscriptionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\CreateCustomerPaymentProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\CreateCustomerProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\CreateCustomerProfileTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\CreateCustomerShippingAddressResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\DeleteCustomerPaymentProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\DeleteCustomerProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\DeleteCustomerShippingAddressResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\GetCustomerPaymentProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\GetCustomerProfileIdsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\GetCustomerProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\GetCustomerShippingAddressResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\CustomerProfileWS\Service.disco" />
+    <Content Include="public\css\combinedstyle_20140216.css" />
+    <Content Include="public\css\custom-gray\jquery-ui-1.7.2.css" />
+    <Content Include="public\css\ie6.css" />
+    <Content Include="public\css\uploadify.css" />
+    <Content Include="public\emailtemplate\Event_banner_Announcement.png" />
+    <Content Include="public\emailtemplate\Event_banner_EndOfAuction.png" />
+    <Content Include="public\images\1px.png" />
+    <Content Include="public\images\ajax-loader-bar.gif" />
+    <Content Include="public\images\arrowlft_1.jpg" />
+    <Content Include="public\images\arrowrgt_1.jpg" />
+    <Content Include="public\images\auction_title_1.png" />
+    <Content Include="public\images\bid_result_loader.gif" />
+    <Content Include="public\images\blue-bg_1.jpg" />
+    <Content Include="public\images\bottom_menu_bg_1.png" />
+    <Content Include="public\images\bottom_menu_separator_1.png" />
+    <Content Include="public\images\consignnow.jpg" />
+    <Content Include="public\images\deal_of_the_week_anim-bak.gif" />
+    <Content Include="public\images\deal_of_the_week_title_1.png" />
+    <Content Include="public\images\dellSprite.png" />
+    <Content Include="public\images\dow-bg_1.jpg" />
+    <Content Include="public\images\featured_title_1.png" />
+    <Content Include="public\images\featured_title_dbl2_1.png" />
+    <Content Include="public\images\featured_title_dbl3_1.png" />
+    <Content Include="public\images\featured_title_dbl_1.png" />
+    <Content Include="public\images\header_bg_1.png" />
+    <Content Include="public\images\Invalid.png" />
+    <Content Include="public\images\Join.jpg" />
+    <Content Include="public\images\Lelands_spa.jpg" />
+    <Content Include="public\images\logo_1.jpg" />
+    <Content Include="public\images\logo_text_1.jpg" />
+    <Content Include="public\images\refresh.gif" />
+    <Content Include="public\images\right_top_bg.jpg" />
+    <Content Include="public\images\small_white_left_egb.gif" />
+    <Content Include="public\images\small_white_right_egb.gif" />
+    <Content Include="public\images\Valid.png" />
+    <Content Include="public\scripts\dow.js" />
+    <Content Include="public\scripts\IE7.js" />
+    <Content Include="public\scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="public\scripts\jquery-1.4.1.js" />
+    <Content Include="public\scripts\jquery-1.4.1.min.js" />
+    <Content Include="public\scripts\jquery-1.4.4.min.js" />
+    <Content Include="public\scripts\jquery.autotab-1.1b.js" />
+    <Content Include="public\scripts\jquery.maskedinput.min.js" />
+    <Content Include="public\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="public\scripts\jquery.validate.js" />
+    <Content Include="public\scripts\jquery.validate.min.js" />
+    <Content Include="public\scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="public\scripts\MicrosoftMvcValidation.js" />
+    <Content Include="public\scripts\adds.js" />
+    <Content Include="public\scripts\payment.js" />
+    <Content Include="public\scripts\table.js" />
+    <Content Include="public\tinymce\license.txt" />
+    <Content Include="public\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="public\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\example\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\example_dependency\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\layer\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\media\moxieplayer.swf" />
+    <Content Include="public\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="public\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="public\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="public\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="public\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="public\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="public\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="public\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="public\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="public\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="public\tinymce\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="public\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="public\tinymce\themes\modern\theme.min.js" />
+    <Content Include="public\tinymce\tinymce.min.js" />
+    <Content Include="Templates\Mail\bidUpdate_login.txt" />
+    <Content Include="Templates\Mail\MessageFromConsignor.txt" />
+    <Content Include="Templates\Mail\outBidMultiple_login.txt" />
+    <Content Include="Templates\Mail\successfulBidMultiple_login.txt" />
+    <Content Include="Templates\Mail\successfulBid_login.txt" />
+    <Content Include="Templates\Mail\outBid_login.txt" />
+    <Content Include="Templates\Mail\emailConfirmationCode.txt" />
+    <Content Include="Views\Account\PayDepositFailed.aspx" />
+    <Content Include="Views\Account\EmailConfirmation.aspx" />
+    <Content Include="Views\Account\pAuctionsParticipated.ascx" />
+    <Content Include="Views\Account\PayIlltakeItFailed.aspx" />
+    <Content Include="Views\Account\PaymentFailed.aspx" />
+    <Content Include="Views\Account\pPastAuction.ascx" />
+    <Content Include="Views\Auction\pAuctionImages.ascx" />
+    <Content Include="Views\Auction\pBiddingHistory.ascx" />
+    <Content Include="Views\Auction\_Test_BiddingPanel.ascx" />
+    <Content Include="Views\Consignor\AddAuction.aspx" />
+    <Content Include="Views\Consignor\AuctionPreview.aspx" />
+    <Content Include="Views\Consignor\BatchImageUpload.aspx" />
+    <Content Include="Views\Consignor\ConsignNow.aspx" />
+    <Content Include="Views\Consignor\ConsignNowSuccess.aspx" />
+    <Content Include="Views\Consignor\PreviewItem.aspx" />
+    <Content Include="Views\Error\HttpError404.aspx" />
+    <Content Include="Views\Event\PartialEventIndex.ascx" />
+    <Content Include="Views\Home\AnnoucementPreview.aspx" />
+    <Content Include="Views\Home\EditContent.ascx" />
+    <Content Include="Views\Home\_ContactUs.ascx" />
+    <Content Include="Views\Home\_FAQs.ascx" />
+    <Content Include="Views\Home\_Help.ascx" />
+    <Content Include="Views\Home\_Index.ascx" />
+    <Content Include="Views\Home\_Privacy.ascx" />
+    <Content Include="Views\Home\_Product.ascx" />
+    <Content Include="Views\Home\_ResourceCenter.ascx" />
+    <Content Include="Views\Home\_Terms.ascx" />
+    <Content Include="Views\Shared\BodyGoogle.ascx" />
+    <Content Include="Views\Shared\HeadGoogle.ascx" />
+    <Content Include="Views\Shared\_LogOn.ascx" />
+    <Content Include="Views\Shared\PartialAuctionGrid.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="public\scripts\MicrosoftAjax.js" />
+    <Content Include="public\scripts\MicrosoftAjax.debug.js" />
+    <Content Include="public\scripts\MicrosoftMvcAjax.js" />
+    <Content Include="public\scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+    <None Include="Web References\CustomerProfileWS\UpdateCustomerPaymentProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\UpdateCustomerProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\UpdateCustomerShippingAddressResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\UpdateSplitTenderGroupResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustomerProfileWS\ValidateCustomerPaymentProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configs\Logger.config" />
+    <Content Include="public\css\print.css" />
+    <Content Include="public\scripts\hashtable.js" />
+    <Content Include="public\scripts\validation.js" />
+    <Content Include="Templates\Mail\successfulBid.txt" />
+    <Content Include="Templates\Mail\outBid.txt" />
+    <Content Include="Templates\Mail\passwordReset.txt" />
+    <Content Include="Templates\Mail\registerConfirm.txt" />
+    <Content Include="Templates\Mail\resendConfirmationCode.txt" />
+    <Content Include="Views\Account\AuctionsParticipated.aspx" />
+    <Content Include="Views\Account\PayPalResult.aspx" />
+    <Content Include="Views\Account\ForgotPassword.aspx" />
+    <Content Include="Views\Account\ForgotPasswordUpdate.aspx" />
+    <Content Include="Views\Account\CreditCardResult.aspx" />
+    <Content Include="Views\Account\MakePayment.aspx" />
+    <Content Include="Views\Account\MyAccount.aspx" />
+    <Content Include="Views\Account\PayForItems.aspx" />
+    <Content Include="Views\Account\ProfileSaveMessage.aspx" />
+    <Content Include="Views\Account\Profile.aspx" />
+    <Content Include="Views\Account\RegisterConfirm.aspx" />
+    <Content Include="Views\Account\RegisterConfirmFail.aspx" />
+    <Content Include="Views\Account\RegisterConfirmSuccess.aspx" />
+    <Content Include="Views\Account\ResendConfirmationCode.aspx" />
+    <Content Include="Views\Account\ResendConfirmationCodeUpdate.aspx" />
+    <Content Include="Views\Account\WatchBid.aspx" />
+    <Content Include="Views\Auction\AuctionDetail.aspx" />
+    <Content Include="Views\Auction\_AuctionGrid.ascx" />
+    <Content Include="Views\Auction\EventCategory.aspx" />
+    <Content Include="Views\Auction\SuccessfulBid.aspx" />
+    <Content Include="Views\Auction\PreviewBid.aspx" />
+    <Content Include="Views\Auction\_AdvancedSearch.ascx" />
+    <Content Include="Views\Auction\_ItemView.ascx" />
+    <Content Include="Views\Auction\_GridView.ascx" />
+    <Content Include="Views\Auction\DealOfTheWeek.aspx" />
+    <Content Include="Views\Auction\EventDetailed.aspx" />
+    <Content Include="Views\Event\Register.aspx" />
+    <Content Include="Views\Event\Index.aspx" />
+    <Content Include="Views\Home\ContactUs.aspx" />
+    <Content Include="Views\Home\ResourceCenter.aspx" />
+    <Content Include="Views\Home\FreeEmailAlertsRegister.aspx" />
+    <Content Include="Views\Home\FreeEmailAlertsRegistrationSuccess.aspx" />
+    <Content Include="Views\Home\Help.aspx" />
+    <Content Include="Views\Home\SearchResult.aspx" />
+    <Content Include="Views\Home\AdvancedSearch.aspx" />
+    <Content Include="Views\Home\FAQs.aspx" />
+    <Content Include="Views\Home\SiteMap.aspx" />
+    <Content Include="Views\Home\Terms.aspx" />
+    <Content Include="Views\Shared\BottomMenuControl.ascx" />
+    <Content Include="Views\Auction\_BiddingPanel_Multiple.ascx" />
+    <Content Include="Views\Shared\LeftMenuControl.ascx" />
+    <Content Include="Views\Auction\_BiddingPanel_Normal.ascx" />
+    <Content Include="Views\Shared\RightBannerControl.ascx" />
+    <Content Include="Views\Shared\SearchControl.ascx" />
+    <Content Include="Views\Shared\TopMenuControl.ascx" />
+    <Content Include="Views\Shared\UserDeckControl.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\Vauction.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Vauction.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\CustomerProfileWS\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\UniMail.dll" />
+    <Content Include="bin\UniMail.pdb" />
+    <Content Include="bin\Vauction.dll" />
+    <Content Include="bin\Vauction.pdb" />
+    <Content Include="blockedips.txt" />
+    <Content Include="mail.config" />
+    <None Include="Models\Vauction.dbml.layout">
+      <DependentUpon>Vauction.dbml</DependentUpon>
+    </None>
+    <Content Include="public\HomeImages\item1.jpg" />
+    <Content Include="public\HomeImages\item10.jpg" />
+    <Content Include="public\HomeImages\item10.png" />
+    <Content Include="public\HomeImages\item2.jpg" />
+    <Content Include="public\HomeImages\item3.jpg" />
+    <Content Include="public\HomeImages\item4.jpg" />
+    <Content Include="public\HomeImages\item5.jpg" />
+    <Content Include="public\HomeImages\item6.jpg" />
+    <Content Include="public\HomeImages\item7.jpg" />
+    <Content Include="public\HomeImages\item8.jpg" />
+    <Content Include="public\HomeImages\item9.jpg" />
+    <Content Include="Views\Home\EmailAlertsUnsubscribeSuccess.aspx" />
+    <Content Include="Views\Shared\SiteWithoutPanels.Master" />
+    <Content Include="public\css\custom-gray\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_glass_55_fff2ad_1x400.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_highlight-hard_75_cccccc_1x100.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_highlight-hard_75_e6e6e6_1x100.png" />
+    <Content Include="public\css\custom-gray\images\ui-bg_highlight-soft_75_dadada_1x100.png" />
+    <Content Include="public\css\custom-gray\images\ui-icons_222222_256x240.png" />
+    <Content Include="public\css\custom-gray\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="public\css\custom-gray\images\ui-icons_454545_256x240.png" />
+    <Content Include="public\css\custom-gray\images\ui-icons_888888_256x240.png" />
+    <Content Include="public\css\custom-gray\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="public\css\ie.css" />
+    <Content Include="public\css\jQueryCustomControls.css" />
+    <Content Include="public\css\ui.jqgrid.css" />
+    <Content Include="public\HomeImages\item1.png" />
+    <Content Include="public\HomeImages\item2.png" />
+    <Content Include="public\HomeImages\item3.png" />
+    <Content Include="public\HomeImages\item4.png" />
+    <Content Include="public\HomeImages\item5.png" />
+    <Content Include="public\HomeImages\item6.png" />
+    <Content Include="public\HomeImages\item7.png" />
+    <Content Include="public\HomeImages\item8.png" />
+    <Content Include="public\HomeImages\item9.png" />
+    <Content Include="public\images\1btn.PNG" />
+    <Content Include="public\images\2btn.png" />
+    <Content Include="public\images\2btn_20.png" />
+    <Content Include="public\images\2btn_320.png" />
+    <Content Include="public\images\2btn_320_1.png" />
+    <Content Include="public\images\2_btn_320.gif" />
+    <Content Include="public\images\69018-1-thb.jpg" />
+    <Content Include="public\images\Add.png" />
+    <Content Include="public\images\arrowlft.jpg" />
+    <Content Include="public\images\arrowrgt.jpg" />
+    <Content Include="public\images\Arrow_Left.png" />
+    <Content Include="public\images\Arrow_Right.png" />
+    <Content Include="public\images\auction_items_bg.png" />
+    <Content Include="public\images\auction_title.png" />
+    <Content Include="public\images\avw.png" />
+    <Content Include="public\images\avw_002.png" />
+    <Content Include="public\images\banner1.png" />
+    <Content Include="public\images\banner2.png" />
+    <Content Include="public\images\banner3.png" />
+    <Content Include="public\images\banner4.png" />
+    <Content Include="public\images\banner5.png" />
+    <Content Include="public\images\big_white_left.gif" />
+    <Content Include="public\images\big_white_right.gif" />
+    <Content Include="public\images\blue-bg.jpg" />
+    <Content Include="public\images\blue-loading.gif" />
+    <Content Include="public\images\borderthin.png" />
+    <Content Include="public\images\bottom_menu_bg.png" />
+    <Content Include="public\images\bottom_menu_separator.png" />
+    <Content Include="public\images\btn.png" />
+    <Content Include="public\images\btn1.png" />
+    <Content Include="public\images\btn_on.png" />
+    <Content Include="public\images\btn_on1.png" />
+    <Content Include="public\images\button.gif" />
+    <Content Include="public\images\button_nl.png" />
+    <Content Include="public\images\button_nl4.png" />
+    <Content Include="public\images\button_reg.png" />
+    <Content Include="public\images\button_reg_bk.png" />
+    <Content Include="public\images\button_reg_noback.png" />
+    <Content Include="public\images\button_reg_on.png" />
+    <Content Include="public\images\button_signin.png" />
+    <Content Include="public\images\button_signin_noback.png" />
+    <Content Include="public\images\button_signin_on.png" />
+    <Content Include="public\images\cards.gif" />
+    <Content Include="public\images\chrome_64x64.png" />
+    <Content Include="public\images\circle_orange_add.png" />
+    <Content Include="public\images\circle_orange_remove.png" />
+    <Content Include="public\images\Coins_that_Save.jpg" />
+    <Content Include="public\images\content_auction_h1.png" />
+    <Content Include="public\images\content_left_border.png" />
+    <Content Include="public\images\continue.png" />
+    <Content Include="public\images\control-scan.jpg" />
+    <Content Include="public\images\dealoftheweek.gif" />
+    <Content Include="public\images\deal_of_the_week_anim.gif" />
+    <Content Include="public\images\deal_of_the_week_title.png" />
+    <Content Include="public\images\deal_of_week.png" />
+    <Content Include="public\images\Delete.png" />
+    <Content Include="public\images\descriptn-bg.jpg" />
+    <Content Include="public\images\dow-bg.jpg" />
+    <Content Include="public\images\dow-desc-bg.jpg" />
+    <Content Include="public\images\dow-desc-bg2.jpg" />
+    <Content Include="public\images\dow-price-bg.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="public\images\featured_items_bg.png" />
+    <Content Include="public\images\featured_title.png" />
+    <Content Include="public\images\featured_title_dbl.png" />
+    <Content Include="public\images\featured_title_dbl2.png" />
+    <Content Include="public\images\featured_title_dbl3.png" />
+    <Content Include="public\images\firefox_64x64.png" />
+    <Content Include="public\images\header_bg.png" />
+    <Content Include="public\images\illtakeit.png" />
+    <Content Include="public\images\illtakeitgray.png" />
+    <Content Include="public\images\illtakeitgray_on.png" />
+    <Content Include="public\images\image_3574045.jpg" />
+    <Content Include="public\images\item1.png" />
+    <Content Include="public\images\item2.png" />
+    <Content Include="public\images\item3.png" />
+    <Content Include="public\images\item4.png" />
+    <Content Include="public\images\item5.png" />
+    <Content Include="public\images\item6.png" />
+    <Content Include="public\images\item7.png" />
+    <Content Include="public\images\item8.png" />
+    <Content Include="public\images\item9.png" />
+    <Content Include="public\images\left_sidebar_h1.png" />
+    <Content Include="public\images\left_sidebar_hr.png" />
+    <Content Include="public\images\left_sidebar_list.png" />
+    <Content Include="public\images\li_selected_bg.png" />
+    <Content Include="public\images\loading.gif" />
+    <Content Include="public\images\logo.jpg" />
+    <Content Include="public\images\logo.png" />
+    <Content Include="public\images\logon_bg.png" />
+    <Content Include="public\images\logo_text.jpg" />
+    <Content Include="public\images\logo_text_tr.gif" />
+    <Content Include="public\images\lot_border.png" />
+    <Content Include="public\images\lot_border_bottom.png" />
+    <Content Include="public\images\lot_image.png" />
+    <Content Include="public\images\lot_preview_button.png" />
+    <Content Include="public\images\menu_bg.png" />
+    <Content Include="public\images\menu_separator.png" />
+    <Content Include="public\images\notation_bg.png" />
+    <Content Include="public\images\no_image.gif" />
+    <Content Include="public\images\no_image_category.gif" />
+    <Content Include="public\images\opera_64x64.png" />
+    <Content Include="public\images\PayFromAccount.png" />
+    <Content Include="public\images\paypal.gif" />
+    <Content Include="public\images\PPExpressCheckout.gif" />
+    <Content Include="public\images\right_sidebar_bg.png" />
+    <Content Include="public\images\right_sidebar_grad.png" />
+    <Content Include="public\images\safari_64x64.png" />
+    <Content Include="public\images\small_banner.png" />
+    <Content Include="public\images\small_white_left.gif" />
+    <Content Include="public\images\small_white_left.png" />
+    <Content Include="public\images\small_white_right.gif" />
+    <Content Include="public\images\small_white_right.png" />
+    <Content Include="public\images\submenuitems_bg.png" />
+    <Content Include="public\images\submenuitems_grad.png" />
+    <Content Include="public\images\throbber2.gif" />
+    <Content Include="public\images\top_menu_bg.png" />
+    <Content Include="public\images\top_menu_full.png" />
+    <Content Include="public\images\top_menu_separator.gif" />
+    <Content Include="public\images\top_menu_separator.png" />
+    <Content Include="public\images\top_menu_top_bg.png" />
+    <Content Include="public\images\transparent.gif" />
+    <Content Include="public\images\UploadBlank.png" />
+    <Content Include="public\images\welcome.png" />
+    <Content Include="public\images\_item2.png" />
+    <Content Include="public\scripts\custom.js" />
+    <Content Include="public\scripts\general.js" />
+    <Content Include="public\scripts\grid.locale-en.js" />
+    <Content Include="public\scripts\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="public\scripts\jquery.cookie.js" />
+    <Content Include="public\scripts\jquery.ifixpng.js" />
+    <Content Include="public\scripts\jquery.jqGrid.min.js" />
+    <Content Include="public\scripts\micoxWordWrap.js" />
+    <Content Include="Templates\Mail\ReceivePersonalShopperUpdateText.txt" />
+    <Content Include="Templates\Mail\ReceivePersonalShopperUpdate.txt" />
+    <Content Include="Templates\Mail\DepositPaymentConfirmation.txt" />
+    <Content Include="Templates\Mail\InvoicePaymentConfirmation.txt" />
+    <Content Include="public\css\content.css" />
+    <Content Include="public\css\word.css" />
+    <Content Include="public\scripts\handlers.js" />
+    <Content Include="public\tiny_box.js" />
+    <Content Include="public\vertical_carusel\images\arrow-down.gif" />
+    <Content Include="public\vertical_carusel\images\arrow-up.gif" />
+    <Content Include="public\vertical_carusel\images\loading-small.gif" />
+    <Content Include="public\vertical_carusel\images\loading-thickbox.gif" />
+    <Content Include="public\vertical_carusel\images\loading.gif" />
+    <Content Include="public\vertical_carusel\jquery-1.2.3.pack.js" />
+    <Content Include="public\vertical_carusel\jquery.jcarousel.css" />
+    <Content Include="public\vertical_carusel\jquery.jcarousel.js" />
+    <Content Include="public\vertical_carusel\jquery.jcarousel.pack.js" />
+    <Content Include="public\vertical_carusel\skins\ie7\loading-small.gif" />
+    <Content Include="public\vertical_carusel\skins\ie7\loading.gif" />
+    <Content Include="public\vertical_carusel\skins\ie7\loading_small.gif" />
+    <Content Include="public\vertical_carusel\skins\ie7\next-horizontal.gif" />
+    <Content Include="public\vertical_carusel\skins\ie7\prev-horizontal.gif" />
+    <Content Include="public\vertical_carusel\skins\ie7\skin.css" />
+    <Content Include="public\vertical_carusel\skins\tango\next-horizontal.png" />
+    <Content Include="public\vertical_carusel\skins\tango\next-vertical.png" />
+    <Content Include="public\vertical_carusel\skins\tango\prev-horizontal.png" />
+    <Content Include="public\vertical_carusel\skins\tango\prev-vertical.png" />
+    <Content Include="public\vertical_carusel\skins\tango\skin.css" />
+    <Content Include="public\vertical_carusel\style.css" />
+    <Content Include="public\vertical_carusel\thickbox\thickbox.css" />
+    <Content Include="public\vertical_carusel\thickbox\thickbox.js" />
+    <Content Include="Templates\Mail\bidUpdate.txt" />
+    <Content Include="Templates\Mail\RefundingDeposit.txt" />
+    <Content Include="Templates\Mail\successfulBidMultiple.txt" />
+    <Content Include="Templates\Mail\outBidMultiple.txt" />
+    <Content Include="Templates\Mail\registerFreeEmailConfirm.txt" />
+    <Content Include="Views\Account\CreditCardITakeIt.aspx" />
+    <Content Include="Views\Account\EditPersonalShopper.aspx" />
+    <Content Include="Views\Account\InvoiceDetailed.aspx" />
+    <Content Include="Views\Account\InvoiceDetailedDOW.aspx" />
+    <Content Include="Views\Account\ITakeIt.aspx" />
+    <Content Include="Views\Account\PastAuction.aspx" />
+    <Content Include="Views\Account\PastInvoices.aspx" />
+    <Content Include="Views\Account\PaymentConfirmation.aspx" />
+    <Content Include="Views\Account\PrintInvoice.aspx" />
+    <Content Include="Views\Account\ReceivePersonalShopperUpdate.aspx" />
+    <Content Include="Views\Account\PayDeposit.aspx" />
+    <Content Include="Views\Account\EditMailSettings.aspx" />
+    <Content Include="Views\Auction\Category.aspx" />
+    <Content Include="Views\Auction\OutBid.aspx" />
+    <Content Include="Views\Auction\PrintAuction.aspx" />
+    <Content Include="Views\Auction\DepositNeeded.aspx" />
+    <Content Include="Views\Auction\FeaturedItems.aspx" />
+    <Content Include="Views\Auction\_ListView.ascx" />
+    <Content Include="public\cancel.png" />
+    <Content Include="public\scripts\jquery.uploadify.js" />
+    <Content Include="Views\Consignor\SaveItemConfirmation.aspx" />
+    <Content Include="Views\Consignor\EditAuction.aspx" />
+    <Content Include="Views\Consignor\Index.aspx" />
+    <Content Include="public\uploader.swf" />
+    <Content Include="Views\Home\Privacy.aspx" />
+    <Content Include="Views\Home\FreeEmailAlertsRegisterConfirm.aspx" />
+    <Content Include="Views\Preview\AuctionDetail.aspx" />
+    <Content Include="Views\Preview\Category.aspx" />
+    <Content Include="Views\Preview\EventCategory.aspx" />
+    <Content Include="Views\Preview\EventDetailed.aspx" />
+    <Content Include="Views\Preview\Index.aspx" />
+    <Content Include="Views\Home\Product.aspx" />
+    <Content Include="Views\Shared\IE6Message.ascx" />
+    <Content Include="Views\Shared\SiteWithoutLeft.Master" />
+    <Content Include="public\carusel\jquery-1.2.3.pack.js" />
+    <Content Include="public\carusel\jquery.jcarousel.css" />
+    <Content Include="public\carusel\jquery.jcarousel.js" />
+    <Content Include="public\carusel\jquery.jcarousel.pack.js" />
+    <Content Include="public\carusel\skins\ie7\credits.txt" />
+    <Content Include="public\carusel\skins\ie7\loading-small.gif" />
+    <Content Include="public\carusel\skins\ie7\loading.gif" />
+    <Content Include="public\carusel\skins\ie7\loading_small.gif" />
+    <Content Include="public\carusel\skins\ie7\next-horizontal.gif" />
+    <Content Include="public\carusel\skins\ie7\prev-horizontal.gif" />
+    <Content Include="public\carusel\skins\ie7\skin.css" />
+    <Content Include="public\carusel\skins\tango\credits.txt" />
+    <Content Include="public\carusel\skins\tango\next-horizontal.png" />
+    <Content Include="public\carusel\skins\tango\next-vertical.png" />
+    <Content Include="public\carusel\skins\tango\prev-horizontal.png" />
+    <Content Include="public\carusel\skins\tango\prev-vertical.png" />
+    <Content Include="public\carusel\skins\tango\skin.css" />
+    <Content Include="public\carusel\thickbox\thickbox.css" />
+    <Content Include="public\carusel\thickbox\thickbox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Utils\Mailer\UniMail.csproj">
+      <Project>{9491018F-19B3-48F2-B8F7-46413D4EFB5F}</Project>
+      <Name>UniMail</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Pool\Log\" />
+    <Folder Include="public\AuctionImages\" />
+    <Folder Include="public\tempImages\" />
+    <Folder Include="Templates\Different\" />
+    <Folder Include="Templates\Email\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://api.authorize.net/soap/v1/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CustomerProfileWS\</RelPath>
+      <UpdateFromURL>https://api.authorize.net/soap/v1/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Vauction_CustomerProfileWS_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)\..\$(ProjectName)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>65278</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+</Project>

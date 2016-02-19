@@ -1,0 +1,20 @@
+Subscription confirmation
+
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE
+WILL BE RETURNED. IF YOU HAVE RECEIVED THIS MESSAGE IN
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW.
+
+Greetings, {{FirstName}} {{LastName}}
+
+You have just subscribed on free email alerts on {{siteName}}
+
+To confirm your subscription, please, use the following link : {{Url}}
+
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}} 

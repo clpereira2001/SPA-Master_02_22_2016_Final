@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+  <template file="dowFailed.txt" name="DOW Failed"/>  
+  <template file="outBid.txt" name="Outbid"/>
+  <template file="bidUpdate.txt" name="Bid Update"/>
+  <template file="outBidMultiple.txt" name="Outbid Multiple"/>
+  <template file="passwordReset.txt" name="Password Recovery"/>
+  <template file="registerConfirm.txt" name="Registration confirmation"/>
+  <template file="resendConfirmationCode.txt" name="Resend Confirmation Code"/>
+  <template file="successfulBid.txt" name="Successful Bid"/>
+  <template file="successfulBidMultiple.txt" name="Successful Bid Multiple"/>
+  <template file="endOfAuction.txt" name="End of Auction"/>
+  <template file="lotClosed.txt" name="Lot closed"/>
+  <template file="lotSold.txt" name="Lot sold"/>
+  <template file="MonthlyInvoice.txt" name="Monthly Invoice"/>
+  <template file="normalLotWon.txt" name="Lot won"/>
+  <template file="dowWon.txt" name="DOW won"/>
+  <template file="registerFreeEmailConfirm.txt" name="Register Free Email Confirm"/>
+  <template file="userUpdated.txt" name="User Updated"/>
+</templates>

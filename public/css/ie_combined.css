@@ -1,0 +1,1842 @@
+﻿/* -------------------------------------------------------------- 
+   
+   grid.css
+   * Sets up an easy-to-use grid of 24 columns.
+   
+   By default, the grid is 950px wide, with 24 columns 
+   spanning 30px, and a 10px margin between columns.
+   
+   If you need fewer or more columns, namespaces or semantic
+   element names, use the compressor script (lib/compress.rb)
+   
+   Note: Changes made in this file will not be applied when
+   using the compressor: make changes in lib/blueprint/grid.css.rb
+   
+-------------------------------------------------------------- */
+
+/* A container should group all your columns. */
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+/* Use this class on any div.span / container to see the grid. */
+.showgrid { 
+  background: url(grid.png); 
+}
+
+/* Columns
+-------------------------------------------------------------- */
+
+/* Sets up basic grid floating and margin. */
+div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, 
+div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, 
+div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, 
+div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, 
+div.span-21, div.span-22, div.span-23, div.span-24 {
+  float: left;
+  margin-right: 10px; 
+}
+
+/* The last column in a row needs this class. */
+div.last { margin-right: 0; }
+
+/* Use these classes to set the width of a column. */
+.span-1  { width: 30px; }
+.span-2  { width: 70px; }
+.span-3  { width: 110px; }
+.span-4  { width: 150px; }
+.span-5  { width: 190px; }
+.span-6  { width: 230px; }
+.span-7  { width: 270px; }
+.span-8  { width: 310px; }
+.span-9  { width: 350px; }
+.span-10 { width: 390px; }
+.span-11 { width: 430px; }
+.span-12 { width: 470px; }
+.span-13 { width: 510px; }
+.span-14 { width: 550px; }
+.span-15 { width: 590px; }
+.span-16 { width: 630px; }
+.span-17 { width: 670px; }
+.span-18 { width: 710px; }
+.span-19 { width: 750px; }
+.span-20 { width: 790px; }
+.span-21 { width: 830px; }
+.span-22 { width: 870px; }
+.span-23 { width: 910px; }
+.span-24, div.span-24 { width: 950px; margin: 0; }
+
+/* Add these to a column to append empty cols. */
+.append-1  { padding-right: 40px; }  
+.append-2  { padding-right: 80px; } 
+.append-3  { padding-right: 120px; } 
+.append-4  { padding-right: 160px; } 
+.append-5  { padding-right: 200px; } 
+.append-6  { padding-right: 240px; } 
+.append-7  { padding-right: 280px; } 
+.append-8  { padding-right: 320px; } 
+.append-9  { padding-right: 360px; } 
+.append-10 { padding-right: 400px; } 
+.append-11 { padding-right: 440px; } 
+.append-12 { padding-right: 480px; } 
+.append-13 { padding-right: 520px; } 
+.append-14 { padding-right: 560px; } 
+.append-15 { padding-right: 600px; } 
+.append-16 { padding-right: 640px; } 
+.append-17 { padding-right: 680px; } 
+.append-18 { padding-right: 720px; } 
+.append-19 { padding-right: 760px; } 
+.append-20 { padding-right: 800px; } 
+.append-21 { padding-right: 840px; } 
+.append-22 { padding-right: 880px; } 
+.append-23 { padding-right: 920px; } 
+
+/* Add these to a column to prepend empty cols. */
+.prepend-1  { padding-left: 40px; }  
+.prepend-2  { padding-left: 80px; } 
+.prepend-3  { padding-left: 120px; } 
+.prepend-4  { padding-left: 160px; } 
+.prepend-5  { padding-left: 200px; } 
+.prepend-6  { padding-left: 240px; } 
+.prepend-7  { padding-left: 280px; } 
+.prepend-8  { padding-left: 320px; } 
+.prepend-9  { padding-left: 360px; } 
+.prepend-10 { padding-left: 400px; } 
+.prepend-11 { padding-left: 440px; } 
+.prepend-12 { padding-left: 480px; } 
+.prepend-13 { padding-left: 520px; } 
+.prepend-14 { padding-left: 560px; } 
+.prepend-15 { padding-left: 600px; } 
+.prepend-16 { padding-left: 640px; } 
+.prepend-17 { padding-left: 680px; } 
+.prepend-18 { padding-left: 720px; } 
+.prepend-19 { padding-left: 760px; } 
+.prepend-20 { padding-left: 800px; } 
+.prepend-21 { padding-left: 840px; } 
+.prepend-22 { padding-left: 880px; } 
+.prepend-23 { padding-left: 920px; } 
+
+
+/* Border on right hand side of a column. */
+div.border {
+  padding-right: 4px;
+  margin-right: 5px;
+  border-right: 1px solid #eee;
+}
+
+/* Border with more whitespace, spans one column. */
+div.colborder {
+  padding-right: 24px;
+  margin-right: 25px;
+  border-right: 1px solid #eee;
+}
+
+
+/* Use these classes on an element to push it into the 
+   next column, or to pull it into the previous column.  */
+
+.pull-1 { margin-left: -40px; }
+.pull-2 { margin-left: -80px; }
+.pull-3 { margin-left: -120px; }
+.pull-4 { margin-left: -160px; }
+.pull-5 { margin-left: -200px; }
+
+.pull-1, .pull-2, .pull-3, 
+.pull-4, .pull-5, .pull-5 {
+  float:left;
+	position:relative;
+}
+
+.push-1 { margin: 0 -40px 1.5em 40px; }
+.push-2 { margin: 0 -80px 1.5em 80px; }
+.push-3 { margin: 0 -120px 1.5em 120px; }
+.push-4 { margin: 0 -160px 1.5em 160px; }
+.push-5 { margin: 0 -200px 1.5em 200px; }
+
+.push-0, .push-1, .push-2, 
+.push-3, .push-4, .push-5 { 
+  float: right;
+	position:relative;
+}
+
+
+/* Misc classes and elements
+-------------------------------------------------------------- */
+
+/* Use a .box to create a padded box inside a column.  */ 
+.box { 
+  padding: 1.5em; 
+  margin-bottom: 1.5em; 
+  background: #E5ECF9; 
+}
+
+/* Use this to create a horizontal ruler across a column. */
+hr {
+  background: #ddd; 
+  color: #ddd;
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: .1em;
+  margin: 0 0 0.45em;
+  border: none; 
+}
+
+.space {
+  background: #fff;
+  height: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+ }
+
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after, .container:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix, .container {display: inline-block;}
+* html .clearfix,
+* html .container {height: 1%;}
+.clearfix, .container {display: block;}
+
+/* Regular clearing
+   apply to column that should drop below previous ones. */
+
+.clear { clear:both; }
+
+/* Main */
+a
+{
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+#bid td
+{
+  vertical-align: top;
+}
+#bid select
+{
+  margin: 3px 0 0 0px !important;
+}
+.hidden
+{
+  display: none;
+}
+.WinnerTanle
+{
+  font-size: 10px;
+  height: 250px;
+  line-height: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 290px;
+}
+.winnerTableTitle
+{
+  color: #333333;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0 5px 5px;
+}
+.winnerTableMotto
+{
+  line-height: 33px;
+  background-color: #002868;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 2px;
+  text-align: center;
+}
+.winnerTableItem
+{
+  display: block;
+  float: left;
+  height: 20px;
+  margin-left: 4px;
+  overflow: hidden;
+  width: 120px;
+}
+.winnerTableItemComment
+{
+  display: block;
+  float: left;
+  height: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.winnerTableItemPrice
+{
+  display: block;
+  float: right;
+  margin-right: 5px;
+}
+#ProxyBidding
+{
+  position: relative;
+  top: 2px;
+}
+.descr_btn_bid
+{
+  margin-right: 41px;
+}
+.descr_bidding_param
+{
+  width: 180px;
+  float: left;
+}
+.current_bid
+{
+  margin-right: 10px;
+}
+#header
+{
+  background: url(../images/header_bg.png);
+  height: 130px;
+}
+.viewselect
+{
+  padding: 0;
+  margin: 0;
+  width: 70px;
+  font-size: 12px;
+}
+.dateselect
+{
+  padding: 0;
+  margin: 0 5px 0 0;
+  width: 90px;
+}
+div.pager
+{
+  background: url(../images/menu_bg.png);
+  height: 22px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  clear: none;
+}
+div.pager .counter
+{
+  margin-left: 5px;
+  margin-right: 10px;
+  clear: none;
+}
+span.pager
+{
+  color: #4A3C8C;
+  font-weight: bold;
+  clear: none;
+}
+.viewform
+{
+  float: right;
+}
+.sized
+{
+  height: 42px;
+  line-height: 42px;
+}
+p.auctionheader a
+{
+  color: #989898;
+  text-decoration: none;
+}
+.sign
+{
+  background: url(../images/button_signin.png);
+}
+.sign_on
+{
+  background: url(../images/button_signin_on.png);
+}
+.reg
+{
+  background: url(../images/button_reg.png);
+}
+.reg_on
+{
+  background: url(../images/button_reg_on.png);
+}
+a#reg_button
+{
+  display: block;
+  width: 121px;
+  height: 32px;
+  text-decoration: none;
+  outline: none;
+}
+a#singin_button
+{
+  display: block;
+  width: 121px;
+  text-decoration: none;
+  height: 32px;
+  outline: none;
+}
+#header br
+{
+  margin: 0px;
+  padding-top: 1px;
+}
+.center
+{
+  text-align: center;
+}
+.left
+{
+  text-align: left;
+}
+#main_title
+{
+  background: url(../images/logo_text.jpg) no-repeat;
+  height: 55px;
+  margin-top: 25px;
+  padding-bottom: 21px;
+}
+#main_title_1
+{
+  font-size: 30px;
+}
+#main_title h1, #main_title h2, #main_title h3
+{
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+#main_title h1
+{
+  margin-top: 15px;
+  font-size: 28px;
+  font-family: times;
+}
+#main_title h2
+{
+  font-size: 16px;
+}
+#main_title h3
+{
+  font-size: 12px;
+}
+#top_menu
+{
+  height: 100%;
+}
+.top_menu_full
+{
+  height: 66px;
+  background: url(../images/top_menu_full.png) no-repeat;
+  background-position: top left;
+}
+#top_menu ul
+{
+  margin-left: -25%;
+  padding-left: 50%;
+}
+.reg
+{
+  margin-left: -35% !important;
+  padding-left: 50%;
+}
+#top_menu li
+{
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 0px;
+  margin-left: 2px;
+  margin-right: 0px;
+  float: left;
+  background: url(../images/top_menu_separator.gif) no-repeat;
+}
+#top_menu li.firstitem
+{
+  padding-left: 0px;
+  margin-left: 0px;
+  background: none;
+}
+#top_menu a
+{
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #555;
+  position: relative;
+  bottom: 1px;
+}
+.top_menu_user
+{
+  text-align: center;
+  height: 22px;
+  width: 100%;
+}
+.top_menu_user p
+{
+  padding-top: 3px;
+  color: #555;
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+}
+.top_menu_user p b
+{
+  font-size: 11px;
+}
+.top_menu_user_menu
+{
+  width: 100%;
+  height: 22px;
+  float: left;
+}
+.bottom_part
+{
+  background: url(../images/top_menu_bg.png) no-repeat;
+  height: 22px;
+  float: left;
+  width: 100%;
+}
+#nl_button
+{
+  position: relative;
+  top: 27px;
+  left: 35px;
+}
+#nl_button_register
+{
+  position: relative; /*top: 17px;*/
+  left: 35px;
+  top: 7px;
+}
+#search, #search a
+{
+  color: #D9EAF1;
+  height: 18px;
+  display: block;
+  line-height: 18px;
+  padding: 3px 0px 0px 0px;
+  font-size: 10px;
+  font-weight: bold;
+}
+#search input
+{
+  margin: 0px;
+  padding: 0px;
+  width: 385px;
+  height: 15px;
+}
+#search select
+{
+  padding: 0px;
+  margin-top: 1px;
+  width: 130px;
+  font-size: 10px;
+  text-decoration: none;
+}
+#search span
+{
+  margin-right: 15px;
+}
+#menu
+{
+  background: url(../images/menu_bg.png);
+  height: 30px;
+}
+#menu li
+{
+  list-style: none;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-top: 1px;
+  float: left;
+  background: url(../images/menu_separator.png) no-repeat;
+}
+#menu li.firstitem
+{
+  padding-left: 0px;
+  margin-left: 0px;
+  background: none;
+}
+#menu a
+{
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  color: #555;
+}
+#submenuitems
+{
+  background: url(../images/submenuitems_bg.png);
+}
+#submenuitems_grad
+{
+  background: url(../images/submenuitems_grad.png) no-repeat;
+  height: 157px;
+  background-position: top right;
+}
+#submenuitems_grad a, #right_sidebar_grad a
+{
+  display: block;
+  background-position: left top;
+}
+#right_sidebar_grad a
+{
+  position: relative;
+  left: 9px;
+}
+#submenuitems_grad a:hover, #right_sidebar_grad a:hover
+{
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+.submenuitems
+{
+  margin-right: 0px;
+  padding-right: 10px;
+}
+#left_sidebar
+{
+  text-align: left;
+  margin-top: 10px;
+}
+#left_sidebar h1
+{
+  color: #0072B0;
+  font-size: 14px;
+  font-weight: bold;
+  height: 100%;
+  line-height: 42px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  background: url(../images/left_sidebar_h1.png) no-repeat;
+  background-position: top left;
+  padding-left: 15px;
+}
+#left_sidebar h1 div
+{
+  line-height: 20px;
+}
+#left_sidebar ul
+{
+  margin-left: 0px;
+  padding: 0;
+  list-style: none;
+}
+#left_sidebar ul li
+{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#left_sidebar ul li a
+{
+  display: block;
+  font-size: 100%;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+}
+#left_sidebar ul li hr
+{
+  width: 160px;
+}
+#categories_tree
+{
+  margin-top: -12px;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 200px;
+  vertical-align: baseline;
+}
+#categories_tree ul
+{
+  margin-left: 10px;
+  list-style: none;
+}
+#categories_tree ul li a
+{
+  display: inline;
+  font-size: 100%;
+}
+#categories_tree ul li hr
+{
+  width: 170px;
+  margin-left: 10px;
+}
+p#deal_info
+{
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  line-height: 1.8em;
+}
+#content
+{
+  background: url(../images/right_sidebar_bg.png) repeat-y;
+  background-position: top right;
+}
+.content
+{
+  padding-left: 10px;
+  background-position: top left;
+}
+.content a
+{
+  color: #0072B0;
+}
+.content h4 a
+{
+  color: #FFFFFF;
+}
+.content h1
+{
+  font-size: 20px;
+  color: #555555;
+}
+.content h2
+{
+  font-size: 16px;
+  color: #555555;
+}
+.no_bg
+{
+  background: none;
+}
+#right_sidebar
+{
+  text-align: center;
+}
+#right_sidebar img
+{
+  margin: 13px 0 10px 3px;
+}
+#right_sidebar_grad
+{
+  background: url(../images/right_sidebar_grad.png) no-repeat;
+  background-position: top left;
+  margin-bottom: 20px;
+}
+#right_sidebar_grad img
+{
+  float: right;
+  margin: 0;
+}
+#maincontent
+{
+  color: #525252;
+}
+#maincontent a
+{
+  color: #343434;
+  text-decoration: none;
+}
+.event h3
+{
+  display: inline;
+  font-size: 13px;
+  overflow: hidden;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.event img
+{
+  border: 0 none;
+  float: left;
+  margin: 0 4px 0 0;
+}
+#welcome
+{
+  background: url(../images/welcome.png) no-repeat;
+  height: 52px;
+  position: relative;
+  line-height: 52px;
+  color: #518AAA;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 10px;
+  padding: 0 0 10px 32px;
+}
+#welcome span
+{  
+}
+/*
+#welcome span1
+{
+  padding-bottom: 20px;
+  display: block;
+  width: 100px;
+}*/
+#welcome img
+{
+  padding: 0;
+  margin: 0;
+  float: none;
+  display: inline;
+}
+.welcome
+{
+  color: #127CB6;
+  font-weight: normal;
+  font-size: 10px;
+}
+.main_title
+{
+  color: #FFF;
+  background: url(../images/auction_title.png) no-repeat;
+  height: 42px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+#auction_title
+{
+  color: #FFF;
+  background: url(../images/auction_title.png) no-repeat;
+  height: 42px;
+  padding-top: 4px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+#featured_title a
+{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+#featured_title
+{
+  color: #FFFFFF;
+  background: url(../images/featured_title.png) no-repeat;
+  height: 42px;
+  padding-top: 4px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+#featured_title_doubleheight, #featured_title_homepage
+{
+  color: #FFFFFF;
+  height: 56px;
+  padding-top: 4px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+#featured_title_doubleheight
+{
+  background: url(../images/featured_title_dbl2.png) no-repeat;
+}
+#featured_title_homepage
+{
+  background: url(../images/featured_title_dbl3.png) no-repeat;
+}
+#deal_of_the_week_title
+{
+  background: url(../images/deal_of_the_week_title.png) no-repeat center top;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+#deal_of_the_week_title p, #deal_of_the_week_title p.sub
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+  color: #FFF;
+}
+#deal_of_the_week_title p.sub
+{
+  font-weight: normal;
+  font-size: 14px;
+}
+.lot_border
+{
+  background: url(../images/lot_border.png) repeat-y;
+  background-position: top right;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.lot_border_bottom
+{
+  background: url(../images/lot_border_bottom.png) repeat-y;
+  height: 9px;
+}
+.auction_items
+{
+  background: url(../images/auction_items_bg.png) repeat-y;
+}
+.auction_pages
+{
+  text-align: center;
+}
+.auction_pages a
+{
+  color: #818181;
+}
+.lot
+{
+  text-align: center;
+}
+.lot h1
+{
+  color: #555555;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.lot p
+{
+  color: #666666;
+  margin-bottom: 0px;
+}
+.lot .bid
+{
+  margin-bottom: 15px;
+}
+.lot_image
+{
+  margin-bottom: 5px;
+}
+.lot_pre_button
+{
+  margin-bottom: 10px;
+}
+.sidebar_hr
+{
+  background-color: #fff;
+  color: #fff;
+  height: 2px;
+  width: 100%;
+  background: url(../images/left_sidebar_hr.png) no-repeat;
+  background-position: top center;
+  margin-bottom: 10px;
+}
+#bottom_menu
+{
+  background: url(../images/bottom_menu_bg.png);
+  height: 23px;
+}
+#bottom_menu ul.bottom_unregistred
+{
+  margin-left: -28%;
+  padding-left: 50%;
+}
+#bottom_menu ul.bottom_registred
+{
+  margin-left: -32%;
+  padding-left: 50%;
+}
+#bottom_menu li
+{
+  list-style: none;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-top: 2px;
+  float: left;
+  background: url(../images/bottom_menu_separator.png) no-repeat;
+}
+#bottom_menu li.firstitem
+{
+  padding-left: 0px;
+  margin-left: 0px;
+  background: none;
+}
+#bottom_menu a
+{
+  display: block;
+  font-weight: bold;
+  font-size: 10px;
+  color: #EEF0F5;
+}
+#footer
+{
+  color: #ADADAD;
+  text-align: center;
+  font-size: 10px;
+  background-color: #FFF;
+}
+#itemdetails_title, #itemdetail_table th, #biditem_table th, #itemdescription_table th
+{
+  background: #072F6A none repeat scroll 0 0;
+  padding: 2px 10px 2px 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+#itemdetail
+{
+  margin-left: 5px;
+}
+#itemdetail_table, #biditem_table, #itemdescription_table, #itemdetail_table td
+{
+  margin-top: 5px;
+  border: 1px solid #C0C0C0;
+  border-collapse: collapse;
+}
+#loading
+{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  width: 200px;
+}
+#loading p
+{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.reports_content
+{
+}
+.pager table
+{
+  width: 0px;
+}
+#itemdetail_table p, #itemdescription_table p, #biditem_table font, #biditem_table td
+{
+  white-space: normal;
+}
+.top_space
+{
+  padding-top: 10px;
+}
+#leftalignedtable, #leftalignedtable td, #leftalignedtable tr
+{
+  text-align: right;
+  padding-right: 2px;
+}
+.pagerlinks a, .pagerlinks a:link .pagerlinks a:hover, .pagerlinks a:visited
+{
+  color: #4A3C8C;
+}
+.dowimage
+{
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-width: 0px;
+}
+a.round, a.roundsmall
+{
+  outline: none;
+  text-decoration: none;
+  float: left;
+}
+.round
+{
+  cursor: pointer;
+  cursor: hand;
+  line-height: 33px;
+  background: url(../images/2btn_320_1.png) no-repeat right top;
+  padding-right: 22px;
+  vertical-align: middle;
+  display: block; /*opera*/
+  display: inline-block; /*ie*/
+  display: -moz-inline-box; /*ff*/
+}
+.round span
+{
+  background: url(../images/2btn_320_1.png) no-repeat left top;
+  height: 33px;
+  display: block;
+  display: inline-block;
+  padding-left: 22px;
+  padding-bottom: 0px;
+  line-height: 33px;
+  font-family: Arial Black;
+  font-size: 18px;
+  font-weight: normal;
+  color: Gray;
+  text-align: center;
+  float: left;
+}
+a.round:hover
+{
+  background-position: right -72px;
+}
+a.round:hover span
+{
+  background-position: left -72px;
+  color: Black;
+}
+.roundsmall
+{
+  cursor: pointer;
+  cursor: hand;
+  line-height: 25px;
+  background: url(../images/2btn_20.png) no-repeat right top;
+  padding-right: 10px;
+  vertical-align: middle;
+  display: block; /*opera*/
+  display: inline-block; /*ie*/
+  display: -moz-inline-box; /*ff*/
+}
+.roundsmall span
+{
+  background: url(../images/2btn_20.png) no-repeat left top;
+  height: 25px;
+  display: block;
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  line-height: 22px;
+  font-family: Arial Black;
+  font-size: 12px;
+  font-weight: normal;
+  color: Gray;
+  text-align: center;
+  float: left;
+}
+a.roundsmall:hover
+{
+  background-position: right -36px;
+}
+a.roundsmall:hover span
+{
+  background-position: left -36px;
+  color: Black;
+}
+/*--------------------------------------*/
+.center_content
+{
+  float: left;
+  width: 100%;
+  display: block;
+  color: black;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.center_content p, .center_content p a
+{
+  color: black;
+  font-size: 14px;
+  text-align:justify;
+  font-family:Arial
+}
+
+.center_content p.pay_notice
+{
+  background: url(../images/notation_bg.png) no-repeat 10px center;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 15px 11px 15px 90px;
+  text-align: justify;
+}
+
+.center_content h1.title
+{
+  color: #0072B0;
+  font-weight: bold;
+  height: 100%;
+  line-height: 42px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.center_content h4
+{
+  background-color: #002868;
+  font-size: 16px;
+  color: #525252;
+  height: 100%;
+  line-height: 33px;
+  clear: both;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.center_content h4.breadcrumb
+{
+  margin-top: 15px;
+  background: none;
+  text-align: left !important;
+}
+.bid_details
+{
+  text-align: center;
+  height: 100%;
+  background: #002868 !important;
+  font-size: 16px;
+  color: White;
+  font-weight: bold;
+}
+.center_content h5
+{
+  color: green;
+  height: 100%;
+  line-height: 33px;
+  text-indent: 15px;
+  border: 1px dotted green;
+}
+.center_content h5.item_info
+{
+  margin-top: 15px;
+  text-indent: 0 !important;
+  padding-left: 10px;
+}
+.item_title
+{
+  background-color: rgb(217, 233, 240);
+  color: #525252;
+  height: 33px;
+  line-height: 33px;
+  text-indent: 15px;
+  width: 100%;
+}
+.content_text
+{
+  padding: 3px 5px 0px;
+  color: rgb(82, 123, 142);
+  font-size: 12px;
+  text-align: justify;
+  text-indent: 15px;
+}
+.content_text_black
+{
+  padding: 0px 5px 0px;
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+  text-indent: 15px;
+}
+.content_text strong
+{
+  margin-left: 15px;
+}
+.no_items
+{
+  color: gray;
+  margin: 0 auto !important;
+  height: 100px !important;
+  padding: 50px 0px 0px 0px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+/*********** PAGING *****************/
+.page_box
+{
+  display: inline;
+  float: none;
+  height: 20px !important;
+  line-height: 1.3em;
+  margin: 0 1px;
+  padding: 2px;
+  width: auto;
+}
+.page_box
+{
+  border: none;
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 2px;
+  text-align: center;
+}
+/*********** TABLE STYLES **************/
+#itemdetail_table td
+{
+  border: 1px solid #C0C0C0;
+  border-collapse: collapse;
+  margin: 5px 0 0 0px;
+  padding-left: 5px;
+}
+#bids_table tr.red
+{
+  color: Red;
+}
+#bids_table tr.green
+{
+  color: Green;
+}
+#bids_table tr.grey
+{
+}
+#bids_table td
+{
+  margin: 5px 0 0 0px;
+  padding-left: 5px;
+}
+#deal_of_the_week td.bordered
+{
+  border: 1px solid #C0C0C0;
+  margin: 5px 0 0 0px;
+  padding-left: 5px;
+}
+#deal_of_the_week .title_item
+{
+  font-weight: bold;
+  color: Black;
+  background-color: #e8e8e8;
+  text-align: center;
+  border-top: 1px solid #C0C0C0;
+}
+#dutch_vinners .title_item
+{
+  font-weight: bold;
+  color: Black;
+  border-bottom: 1px solid #C0C0C0;
+}
+#dutch_vinners .title_item .left
+{
+  text-align: left !important;
+  padding-left: 5px !important;
+}
+#dutch_vinners .title_item .center
+{
+  text-align: center !important;
+}
+#dutch_vinners td.bordered
+{
+  margin: 5px 0 0 0px;
+  padding-left: 5px;
+}
+#dutch_vinners td.bordered .left
+{
+  text-align: left;
+}
+#dutch_vinners td.bordered .center
+{
+  text-align: center;
+}
+#auction_detailed, #auction_description, #auction_bidding
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000
+}
+#auction_detailed td
+{
+  height: 20px;
+  padding: 0 0 0 0;
+  vertical-align: top;
+}
+td.image_td
+{
+  vertical-align: middle;
+  text-align: center;
+}
+#auction_detailed td.no_bordered
+{
+  padding-top: 10px;
+}
+#auction_detailed td.bordered, #auction_description td.bordered, #auction_bidding td.bordered
+{
+  border-color: #777777;
+  border-width: 2px;
+  border-style: groove;
+  border-collapse: collapse;
+  vertical-align: middle;
+  height: 20px;
+  padding-left: 5px;
+}
+#auctions_won th
+{
+  border-bottom: 1px solid #C0C0C0;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+.image_in_text
+{
+  margin: 0 10px 10px 0;
+  float: left;
+}
+#item_view
+{
+  margin: 0;
+}
+.dbg
+{
+  border: solid 1px red;
+  background-color: Transparent;
+}
+.dbg *
+{
+  border: solid 1px Blue;
+}
+.ie_btn_fix button
+{
+  position: relative;
+  top: -8px;
+}
+.pager_pos
+{
+  padding-left: 5px;
+}
+td.img_scroller
+{
+  vertical-align: top;
+}
+td.img_scroller a img
+{
+  margin: 0 0 0 0 !important;
+  padding: 0 0 0 0 !important;
+}
+.auction_view
+{
+  background-color: #f1f1f1;
+  float: left;
+}
+.auction_view_first_cell
+{
+  padding-left: 10px;
+}
+#ItemGrid
+{
+  float: left;
+}
+blockquote
+{
+  white-space: normal;
+}
+#bidding
+{
+}
+#bidding .bid_info
+{
+  color: Black;
+  font-weight: bold;
+}
+#bidding table
+{
+  border-collapse: collapse;
+}
+#bidding td
+{
+  border: 1px solid #c0c0c0;
+}
+#bidding td.bidding_head
+{
+  color: White;
+  height: 33px;
+  background-color: #002868;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.event_click_here
+{
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+.br_clear
+{
+  clear: both;
+}
+.td_w_150
+{
+  width: 150px;
+}
+.td_w_180
+{
+  width: 180px;
+}
+.td_w_50p
+{
+  width: 50%;
+}
+.td_h_30
+{
+  height: 30px;
+}
+.faq
+{
+  color: #0072B0;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.litxt
+{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 21px;
+}
+.top_link
+{
+  text-align: right;
+}
+.previewAuction
+{
+  width: 800px;
+  padding-left: 30px;
+}
+.description_text
+{
+  margin: 10px;
+}
+.loading_image
+{
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  vertical-align: middle;
+  background: url(../images/blue-loading.gif) no-repeat left top;
+}
+#tooltip
+{
+  position: absolute;
+  border: 1px solid #333;
+  background: #EEE;
+  padding: 5px;
+  color: #333;
+  width: 300px;
+}
+#tooltipList ul
+{
+  margin: 0px;
+  padding: 0px;
+}
+#tooltipList li
+{
+  display: block;
+  margin-bottom: 20px;
+}
+.back_link
+{
+  float: right;
+  margin-top: 20px;
+}
+/* jquery */
+.payment_table_header
+{ 
+	background-color:#002868;
+	color:#FFFFFF;	
+}
+
+.payment_table_header th, .payment_table_header td
+{ 		
+	font-weight:bold;
+	padding: 5px 0px 5px 10px;
+	cursor:default;
+	border: solid 1px #002868;
+	border-top: solid 1px white;
+}
+
+.payment_table_content3
+{
+  background-color:#F2F2F2;
+	border: solid 1px #e2e2e2;	
+}
+
+.payment_table_content3 td
+{
+  font-weight:bold;
+  padding: 5px 0px 5px 10px;
+}
+
+.payment_table_footer2
+{
+  background-color:#DEEBF7;
+	color:#333333;
+}
+
+.payment_table_footer2 td
+{  
+  font-weight:bold;
+	padding: 5px 0px 5px 10px;
+	border-top:solid 1px #e2e2e2;
+	border-bottom:solid 1px #e2e2e2;
+}
+
+.payment_table_footer3
+{  
+	background-color:#400000;
+	color:#FFFFFF;
+}
+
+.payment_table_footer3 td
+{
+  font-weight:bold;
+	padding: 5px 0px 5px 10px;
+	border-top:solid 1px #400000;
+	border-bottom:solid 1px #400000;
+}
+
+#dvChooseMethod
+{
+  background-color: rgb(217, 233, 240);
+  color: #525252;  
+}
+
+#dvChooseMethod td
+{
+  padding: 5px;
+  font-weight:bold;  
+  vertical-align:middle;
+}
+
+#dvChooseMethod #imgPayPal, #dvChooseMethod #imgCard, #dvChooseMethod #imgAccount
+{  
+  border:solid 2px rgb(217, 233, 240);
+  text-align:center;
+}
+
+#dvChooseMethod #imgPayPal:hover, #dvChooseMethod #imgCard:hover, #dvChooseMethod #imgAccount:hover
+{
+  border:solid 2px #47829C;
+}
+
+.payment_table_header2
+{  
+	background-color:#01347E;
+	color:#FFFFFF;	
+}
+
+.payment_table_header2 td
+{
+	font-weight:bold;
+	padding: 5px 0px 5px 10px;
+	cursor:default;
+	border-top: solid 1px #01347E;
+	border-bottom: solid 1px #01347E;
+}
+
+.payment_table_line, .payment_table_line_sold /*message_head*/
+{ 
+	cursor: pointer;	
+	background-color:#F2F2F2;	
+}
+
+.payment_table_line td
+{
+  font-weight:bold;
+  padding: 5px 0px 5px 10px;
+  border-top: solid 1px #e2e2e2;	
+  border-bottom: solid 1px #e2e2e2;	
+}
+
+.payment_table_line_sold td
+{
+  font-weight:bold;
+  padding: 5px 0px 5px 10px;
+  border-top: solid 1px #e2e2e2;	
+  border-bottom: solid 1px #e2e2e2;	
+  text-decoration:line-through;
+}
+
+.payment_table_content /*message_body*/
+{
+  cursor: default;	
+	background-color:#DEEBF7;	
+}
+.payment_table_content_td
+{
+  border-left: solid 1px #e2e2e2;
+	border-bottom: solid 1px #E2e2e2;
+	border-right: solid 1px #e2e2e2;	
+}
+
+/* message display page */
+.message_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 99%;		
+}
+.message_head {
+	padding: 5px 0px 5px 10px;
+	cursor: pointer;	
+	position:relative;
+	display:inline-table;
+	background-color:#F2F2F2;
+	border: solid 1px #e2e2e2;	
+}
+
+.message_head2 {
+	padding: 5px 0px 5px 10px;
+	cursor: pointer;	
+	position:relative;
+	display:inline-table;
+	background-color:red;
+	border: solid 1px #e2e2e2;
+}
+
+.message_head3 {
+	padding: 5px 0px 5px 10px;	
+	position:relative;
+	display:inline-table;
+	background-color:#F2F2F2;
+	border: solid 1px #e2e2e2;	
+}
+
+.message_body {
+	padding: 5px 0px 5px 10px;
+	cursor: default;	
+	position:relative;
+	display:inline-table;
+	background-color:#DEEBF7;
+	border-left: solid 1px #e2e2e2;
+	border-bottom: solid 1px #E2e2e2;
+	border-right: solid 1px #e2e2e2;	
+}
+
+.table_header_accordion
+{  
+  border: solid 1px #002868;  
+  border-top: solid 1px white;
+	background-color:#002868;
+	color:#FFFFFF;
+	padding: 5px 0px 5px 10px;
+	position:relative;
+	display:inline-table;
+}
+
+.table_total_panel
+{  
+  border: solid 1px #01347E;
+	background-color:#01347E;
+	color:#FFFFFF;
+	padding: 5px 0px 5px 10px;
+	position:relative;
+	display:inline-table;		
+}
+
+.accordion_header
+{ 
+	display:table-row-group;
+	float:left;
+	font-weight:bold;
+}
+
+.accordion_header_chk
+{ 
+	display:table-row-group;	
+	float:left;
+	font-weight:bold;	
+	//display:inline;	
+}
+
+.accordion_separator_links
+{
+	display:table-row-group;
+	float:left;
+	font-weight:bold;
+}
+
+.accordion_separator_amount
+{
+	display:table-row-group;
+	float:left;
+	font-weight:bold;
+}
+
+.accordion_shipping, .accordion_amount, .accordion_insurance
+{
+}
+
+.accordion_separator
+{
+	display:table-row-group;
+	float:left;
+	font-weight:bold;
+}
+
+.tableTL
+{
+  border-top:solid 1px #DDDDDD;
+  border-left:solid 1px #DDDDDD;
+  padding-left:10px;
+  background-color:White;
+}
+.tableTLR
+{
+  border-top:solid 1px #DDDDDD;
+  border-left:solid 1px #DDDDDD;
+  border-right:solid 1px #DDDDDD;
+  padding-left:10px;
+  background-color:White;
+}
+
+.tableTLB
+{
+  border-top:solid 1px #DDDDDD;
+  border-left:solid 1px #DDDDDD;
+  border-bottom:solid 1px #DDDDDD;
+  padding-left:10px;
+  background-color:White;
+}
+
+.tableTLBR
+{
+  border:solid 1px #DDDDDD;  
+  padding-left:10px;
+  background-color:White;
+}
+
+.tableBL
+{ 
+  border-left:solid 1px #DDDDDD;
+  border-bottom:solid 1px #DDDDDD;
+  padding-left:10px;
+  background-color:White;
+}
+
+.tableBLR
+{
+  border-right:solid 1px #DDDDDD;
+  border-left:solid 1px #DDDDDD;
+  border-bottom:solid 1px #DDDDDD;
+  padding-left:10px;
+  background-color:White;
+}
+
+.tableT
+{
+  border-top:solid 1px #DDDDDD;  
+  padding-left:10px;
+  background-color:White;
+}
+
+.collapse_all_message, .expand_all_message, .select_all, .deselect_all
+{
+  color:White;
+}
+
+.paymnet_table_line_deposit
+{ 
+      cursor: pointer;
+      background-color:rgb(255, 223, 234);
+}
+.paymnet_table_line_deposit td
+{      
+      padding: 5px 0px 5px 10px;  
+      border-top: solid 1px #e2e2e2;	
+      border-bottom: solid 1px #e2e2e2;	
+}

@@ -1,0 +1,30 @@
+{{siteName}} Personal Shopper Update
+<html>
+	<head>
+	  <title>
+	    {{siteName}} Personal Shopper Update
+	  </title>
+  </head>
+	<body style="font-family: Arial, Helvetica, sans-serif;">		
+	  <div style='width:750px; border:solid 1px #888888; padding: 10px 10px 20px 20px; background-color:#EFEFEF'>
+			<div style="width:740px; background-color:#30467D; height: 130px;">
+				 <img src="http://www.seizedpropertyauctions.com/public/images/logo_1.jpg" alt="" style="float:left" />
+				 <img src="http://www.seizedpropertyauctions.com/public/images/logo_text_tr.gif" alt="" style="float:right; width:550px; margin-right:20px; margin-top:30px" />
+			</div><br />
+			<span style='font-size:bold; font-style:14px' >Listed below are items matching your Personal Shopper criteria:</span><br />
+	    <table style='table-layout:fixed;font-size:14px;' cellpadding="0" cellspacing="0" >
+				<colgroup>
+					<col width="150px" />
+					<col width="590px" />
+				</colgroup>
+      {{info}}      
+      </table>
+      <br /><br />      
+      {{firstname}} {{lastname}},
+			<p>
+			Seized Property Auctions has sent this e-mail to you because your Notification Preferences indicate that you want to receive Personal Shopper Auction Announcements. Seized Property will not request personal data (password, credit card/bank numbers) in an e-mail. You are subscribed as {{login}} registered on Seized Property Auctions. If you do not wish to receive further communications, <a href="{{siteUrl}}/Account/EditPersonalShopper">click here to unsubscribe</a> or to modify your notification settings. Visit our <a href="{{siteUrl}}/Home/Privacy">Privacy Statement</a> and <a href="{{siteUrl}}/Home/Terms">Terms And Conditions</a> if you have any questions.
+			</p>
+			<center>{{CompanyName}}, {{CompanyAddress}}<br /> Copyright {{copyrightDate}}</center>
+		</div>
+	</body>
+</html>

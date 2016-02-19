@@ -1,0 +1,21 @@
+body{text-align:center}
+.container{text-align:left}
+* html .column{overflow-x:hidden}
+* html legend{margin:-18px -8px 16px 0; padding:0}
+ol{margin-left:2em}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+html>body p code{*white-space:normal}
+hr {margin:-8px auto 11px}
+button.cssbutton{width:10px}
+button.cssbutton span{vertical-align:middle; float:left;position:relative;top:1px}
+.ie_btn_fix button.cssbutton span{top:7px;left:-1px}
+.ie_btn_fix button.cssbutton{position:relative;top:0px}
+button#btSubmit.cssbutton.small.white{width:155px}
+button.cssbutton.small.white.preview{width:115px}
+button#Itakeit{width:93px}
+button.submit_payment{margin-top:20px;width:150px}
+button.place_bid{width:90px}
+.ie_viewform{position:relative;top:-1px}
+.ie_viewform select{height:20px}
+.ie_shift{position:relative; top:-1px; display:inline}

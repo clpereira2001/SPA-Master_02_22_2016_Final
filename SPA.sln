@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49F1D796-47F6-4AD8-8932-FCD68187FB71}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SPA.vsmdi = SPA.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UT", "UT", "{930F283C-D5F9-4E57-9508-2AA56F8F5275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA", "SPA.csproj", "{D0BB0849-0BB3-4E7B-B6A3-06AFE2FC5CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniMail", "Utils\Mailer\UniMail.csproj", "{9491018F-19B3-48F2-B8F7-46413D4EFB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA_ut", "..\source_ut\SPA_ut.csproj", "{894182A6-E5EF-4A17-BB26-64150DAD73CC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://esporttfs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SPA.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = Utils\\Mailer\\UniMail.csproj
+		SccProjectName2 = Utils/Mailer
+		SccLocalPath2 = Utils\\Mailer
+		SccProjectUniqueName3 = ..\\source_ut\\SPA_ut.csproj
+		SccProjectTopLevelParentUniqueName3 = SPA.sln
+		SccProjectName3 = ../source_ut
+		SccLocalPath3 = ..\\source_ut
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0BB0849-0BB3-4E7B-B6A3-06AFE2FC5CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BB0849-0BB3-4E7B-B6A3-06AFE2FC5CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BB0849-0BB3-4E7B-B6A3-06AFE2FC5CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BB0849-0BB3-4E7B-B6A3-06AFE2FC5CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9491018F-19B3-48F2-B8F7-46413D4EFB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9491018F-19B3-48F2-B8F7-46413D4EFB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9491018F-19B3-48F2-B8F7-46413D4EFB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9491018F-19B3-48F2-B8F7-46413D4EFB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894182A6-E5EF-4A17-BB26-64150DAD73CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894182A6-E5EF-4A17-BB26-64150DAD73CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894182A6-E5EF-4A17-BB26-64150DAD73CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894182A6-E5EF-4A17-BB26-64150DAD73CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49F1D796-47F6-4AD8-8932-FCD68187FB71} = {930F283C-D5F9-4E57-9508-2AA56F8F5275}
+		{894182A6-E5EF-4A17-BB26-64150DAD73CC} = {930F283C-D5F9-4E57-9508-2AA56F8F5275}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SPA.vsmdi
+	EndGlobalSection
+EndGlobal

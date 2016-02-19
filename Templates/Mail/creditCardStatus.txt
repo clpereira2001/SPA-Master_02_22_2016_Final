@@ -1,0 +1,9 @@
+﻿Payment Status
+
+Dear {{firstName}} {{lastName}}.
+
+Payment #{{paymentID}}  was processed
+Status: {{status}}
+
+
+Thank you,

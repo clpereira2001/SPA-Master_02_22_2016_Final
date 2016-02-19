@@ -1,0 +1,46 @@
+﻿.payment_table_header{background-color:#002868;color:#FFFFFF;}
+.payment_table_header th, .payment_table_header td{font-weight:bold;padding: 5px 0px 5px 10px;cursor:default;border: solid 1px #002868;border-top: solid 1px white;}
+.payment_table_content3{background-color:#F2F2F2;border: solid 1px #e2e2e2;}
+.payment_table_content3 td{font-weight:bold;padding: 5px 0px 5px 10px;}
+.payment_table_footer2{background-color:#DEEBF7;color:#333333;}
+.payment_table_footer2 td{font-weight:bold;padding: 5px 0px 5px 10px;border-top:solid 1px #e2e2e2;border-bottom:solid 1px #e2e2e2;}
+.payment_table_footer3{background-color:#400000;color:#FFFFFF;}
+.payment_table_footer3 td{font-weight:bold;padding: 5px 0px 5px 10px;border-top:solid 1px #400000;border-bottom:solid 1px #400000;}
+#dvChooseMethod{background-color: rgb(217, 233, 240);color: #525252;}
+#dvChooseMethod td{padding: 5px;font-weight:bold;vertical-align:middle;}
+#dvChooseMethod #imgPayPal, #dvChooseMethod #imgCard, #dvChooseMethod #imgAccount, #dvChooseMethod #imgPayPal2{border:solid 2px rgb(217, 233, 240);text-align:center;}
+#dvChooseMethod #imgPayPal:hover, #dvChooseMethod #imgCard:hover, #dvChooseMethod #imgAccount:hover, #dvChooseMethod #imgPayPal2:hover{border:solid 2px #47829C;}
+.payment_table_header2{background-color:#01347E;color:#FFFFFF;}
+.payment_table_header2 td{font-weight:bold;padding: 5px 0px 5px 10px;cursor:default;border-top: solid 1px #01347E;border-bottom: solid 1px #01347E;}
+.payment_table_line, .payment_table_line_sold{cursor: pointer;background-color:#F2F2F2;}
+.payment_table_line td{font-weight:bold;padding: 5px 0px 5px 10px;border-top: solid 1px #e2e2e2;border-bottom: solid 1px #e2e2e2;}
+.payment_table_line_sold td{font-weight:bold;padding: 5px 0px 5px 10px;border-top: solid 1px #e2e2e2;border-bottom: solid 1px #e2e2e2;text-decoration:line-through;}
+.payment_table_content{cursor: default;background-color:#DEEBF7;}
+.payment_table_content_td{border-left: solid 1px #e2e2e2;border-bottom: solid 1px #E2e2e2;border-right: solid 1px #e2e2e2;}
+.message_list {list-style: none;margin: 0;padding: 0;width: 99%;}
+.message_head {padding: 5px 0px 5px 10px;cursor: pointer;	position:relative;display:inline-table;background-color:#F2F2F2;border: solid 1px #e2e2e2;}
+.message_head2 {padding: 5px 0px 5px 10px;cursor: pointer;position:relative;display:inline-table;background-color:red;border: solid 1px #e2e2e2;}
+.message_head3 {padding: 5px 0px 5px 10px;position:relative;display:inline-table;background-color:#F2F2F2;border: solid 1px #e2e2e2;}
+.message_body {padding: 5px 0px 5px 10px;cursor: default;position:relative;display:inline-table;background-color:#DEEBF7;border-left: solid 1px #e2e2e2;border-bottom: solid 1px #E2e2e2;border-right: solid 1px #e2e2e2;}
+.table_header_accordion{border: solid 1px #002868;border-top: solid 1px white;background-color:#002868;color:#FFFFFF;padding: 5px 0px 5px 10px;position:relative;display:inline-table;}
+.table_total_panel{border: solid 1px #01347E;background-color:#01347E;color:#FFFFFF;padding: 5px 0px 5px 10px;position:relative;display:inline-table;}
+.accordion_header{display:table-row-group;float:left;font-weight:bold;}
+.accordion_header_chk{display:table-row-group;float:left;font-weight:bold;//display:inline;}
+.accordion_separator_links{display:table-row-group;float:left;font-weight:bold;}
+.accordion_separator_amount{display:table-row-group;float:left;font-weight:bold;}
+.accordion_shipping, .accordion_amount, .accordion_insurance{}
+.accordion_separator{display:table-row-group;float:left;font-weight:bold;}
+.tableTL{border-top:solid 1px #DDD;border-left:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.tableTLR{border-top:solid 1px #DDD;border-left:solid 1px #DDD;border-right:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.tableTLB{border-top:solid 1px #DDD;border-left:solid 1px #DDD;border-bottom:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.tableTLBR{border:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.tableBL{ border-left:solid 1px #DDD;border-bottom:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.tableBLR{border-right:solid 1px #DDD;border-left:solid 1px #DDD;border-bottom:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.tableT{border-top:solid 1px #DDD;padding-left:10px;background-color:#FFF;}
+.collapse_all_message, .expand_all_message, .select_all, .deselect_all{color:#FFF;}
+.paymnet_table_line_deposit{cursor: pointer;background-color:rgb(255, 223, 234);}
+.paymnet_table_line_deposit td{padding: 5px 0px 5px 10px;border-top: solid 1px #e2e2e2;border-bottom: solid 1px #e2e2e2;}
+.payment_table_header3{background-color:rgb(220, 222, 245);color:#222}
+.payment_table_header3 td{font-style:italic;padding: 0px 5px 0px 5px;cursor:default;border-top: solid 1px #555;border-right: solid 1px #555;border-bottom: solid 1px #555;}
+.payment_table_line2{cursor: default;background-color:white;color:#222;}
+.payment_table_line2 td{padding: 0px 5px 0px 10px;border-top: solid 1px #222;border-right: solid 1px #222;border-bottom: solid 1px #222;}

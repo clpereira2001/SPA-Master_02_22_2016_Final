@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="Vauction.Utils.Autorization" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Siezed Property Auctions</title>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="<%=AppHelper.CompressImagePath("/favicon.ico") %>" />
+  <link rel="icon" type="image/gif" href="<%=AppHelper.CompressImagePath("/favicon.ico") %>" />
+  <link rel="apple-touch-icon" href="<%=AppHelper.CompressImagePath("/apple-touch-icon.png") %>" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+<%--  <% Html.Style("combinedstyle_20140216.css"); %>--%>
+
+    <link rel="stylesheet" href="/public/css/bootstrap.css" />
+    <link rel="stylesheet" href="/public/css/hover.css" />
+    <link rel="stylesheet" href="/public/css/base-class.css" />
+    <link rel="stylesheet" href="/public/css/styles.css" />
+
+    <% Html.Style("font-awesome.min.css"); %>
+    <% Html.StyleUrl("/public/css/bootstrap.css");%>
+    <% Html.StyleUrl("/public/css/hover.css"); %>
+    <% Html.StyleUrl("/public/css/base-class.css"); %>
+    <% Html.StyleUrl("/public/css/styles.css"); %>
+
+  <script type="text/javascript" src="<%=Context.Request.Url.Scheme.ToLower() %>://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript">if (typeof jQuery == 'undefined') {document.write(unescape("%3Cscript src='<%=AppHelper.ScriptUrl("jquery-1.4.4.min.js") %>' type='text/javascript'%3E%3C/script%3E"));}</script>
+
+  <% if (!Request.IsSecureConnection) Html.Script("adds.js"); %>
+  <% decimal version; bool isIE = Decimal.TryParse(Request.Browser.Version, out version) && Request.Browser.Browser == "IE";
+     if (isIE) Html.Style("ie.css");     
+  %>  
+  <!--[if IE 7 ]>
+    <style type="text/css">
+    .topBlock{height:134px}
+    #top_menu .linkTop{height:100px}
+    .aLogIn{width:50px}
+    .top_menu_user{margin-top:-6px}
+    .top_menu_user_menu{margin-top:-2px}
+    </style>
+  <![endif]-->
+  <asp:ContentPlaceHolder ID="HTMLhead" runat="server"></asp:ContentPlaceHolder>
+  <%= Html.CompressJs(Url) %>
+  <%= Html.CompressCss(Url) %>
+  <% Html.Clear(); %>
+  <!--[if lt IE 7]>    
+    <script type="text/javascript" src="<%= this.ResolveUrl("~/public/scripts/IE7.js" ) %>"></script>
+  <![endif]-->  
+
+<%--<%  Html.RenderPartial("HeadGoogle");  %>--%>
+</head>
+<body>
+  <% bool isDemo = false; // (ViewData["DEMO_MODE"] != null) ? Convert.ToBoolean(ViewData["DEMO_MODE"]) : false;
+     SessionUser cuser = AppHelper.CurrentUser;
+     %>
+    <div id="toolbar">
+  <div class="container">
+    <div id="header" style="background-color: #123e6b;">
+      <div class="span-4" style="padding-top:10px; padding-left:2px">  
+        <a href="<%=isDemo?"#":"/Home/Index" %>">
+          <img src="<%=AppHelper.CompressImage("logo_1.jpg") %>" alt="" /></a>
+      </div>
+      <div id="top_menu">
+        <%  Html.RenderPartial("UserDeckControl");  %>
+      </div>
+      <div id="middleheader">
+        <div class="mainTitle">
+          SEIZED PROPERTY AUCTIONS.COM</div>
+        <div class="mainTitle2">
+          OFFICIAL WEBSITE OF FEDERAL ASSET RECOVERY</div>
+        <div class="mainTitle3">
+          A PRIVATE CORPORATION SERVING GOVERNMENT, BUSINESS, AND PRIVATE INDIVIDUALS SINCE
+          2002</div>
+        <div id="search">
+          <% Html.RenderPartial("SearchControl"); %>
+        </div>
+      </div>
+      <div style="clear: both;">
+      </div>
+      <div id="menu" class="span-24">
+        <div class="prepend-3 span-21 last">
+          <% Html.RenderPartial("TopMenuControl"); %>
+        </div>
+      </div>
+    </div>
+    <div id="span-24">
+      <div style="-display: inline; -margin: 0px; -padding: 0px;">
+        <asp:ContentPlaceHolder ID="head" runat="server" />
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+      </div>
+      <% if (!isDemo)
+         {%>
+      <div id="bottom_menu" class="span-24">
+        <div class="prepend-1 span-23 last">
+          <% Html.RenderPartial("BottomMenuControl"); %>
+        </div>
+      </div>
+      <div id="footer" class="span-24">
+        Use of this Website constitutes acceptance of <a href="<%= Url.Action("Terms", "Home") %>">
+          TERMS AND CONDITIONS</a> and <a href="<%= Url.Action("Privacy", "Home") %>">PRIVACY
+            STATEMENT</a>.
+        <br />
+        Designed trademarks, logos, and brands and the property of their respective owners.
+        <br />
+        &copy; Copyright
+        <%=ConfigurationManager.AppSettings["copyrightDate"]%>,
+        <%=Consts.CompanyTitleName %>, All Rights Reserved.
+      </div>
+      <%} %>
+    </div>
+  </div>
+    </div>
+  <%= Html.CompressJs(Url) %>
+  <%= Html.CompressCss(Url) %>
+  <asp:ContentPlaceHolder ID="cphScriptBottom" runat="server" />
+
+
+  <%  Html.RenderPartial("BodyGoogle");  %>
+</body>
+</html>

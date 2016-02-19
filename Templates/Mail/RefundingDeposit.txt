@@ -1,0 +1,19 @@
+﻿Your Good Faith Deposit has been Refunded
+
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE
+WILL BE RETURNED. IF YOU HAVE RECEIVED THIS MESSAGE IN
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW.
+
+{{firstName}} {{lastName}},
+
+This message has been sent to confirm that your good faith deposit with Transaction ID# {{prevTransactionID}} from {{dateFrom}} ({{paymentMethod}}) has been refunded.
+Refunded Transaction ID#: {{transactionID}}
+Refunded amount: {{amount}}
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}} 

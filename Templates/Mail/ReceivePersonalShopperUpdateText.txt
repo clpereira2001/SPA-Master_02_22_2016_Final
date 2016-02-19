@@ -1,0 +1,12 @@
+{{siteName}} Personal Shopper Update
+
+Listed below are items matching your Personal Shopper criteria:
+	   
+{{info}}      
+   
+{{firstname}} {{lastname}},
+
+Seized Property Auctions has sent this e-mail to you because your Notification Preferences indicate that you want to receive Personal Shopper Auction Announcements. Seized Property will not request personal data (password, credit card/bank numbers) in an e-mail. You are subscribed as {{login}} registered on Seized Property Auctions. If you do not wish to receive further communications or to modify your notification settings follow this link {{siteUrl}}/Account/EditPersonalShopper. Visit our Privacy Statement ({{siteUrl}}/Home/Privacy) and Terms And Conditions ({{siteUrl}}/Home/Terms) if you have any questions.
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}}

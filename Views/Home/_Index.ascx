@@ -1,0 +1,3 @@
+<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
+<p class="text-primary text-weight-900 text-lg">Welcome to SeizedPropertyAuctions.com</p>
+<p>We are a premier full-service auction company liquidating property seized by police and federal agencies, property from abandoned safe deposit boxes, seized bank assets, bankruptcies, financial institutions, business inventory liquidations, and other consigners. Our firm conducts traditional live auctions throughout the year at various locations across the country, as well as auctions on the Internet. Please see our schedule of upcoming auctions for further details.</p>

@@ -1,0 +1,33 @@
+﻿Outbid Notice for Lot {{auctionID}}
+
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE
+WILL BE RETURNED. IF YOU HAVE RECEIVED THIS MESSAGE IN
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW.
+
+{{firstName}} {{lastName}},
+
+You have been out bid for lot #{{auctionID}}:
+"{{auctionName}}"
+
+You are currently winning {{curwin}} of {{quantity}}.
+
+Please note that you are bidding on a multiple item
+auction and are receiving this notice because someone
+placed a higher dollar amount per item than you. It
+does not necessarily mean you are not one of the
+currently successful bidders.
+
+If you would like to bid on this item again
+please follow this link:
+
+{{newBidUrl}}
+
+This lot will close {{auctionEndDate}}
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}}

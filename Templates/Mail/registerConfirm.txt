@@ -1,0 +1,29 @@
+Welcome to the Auction! Please confirm your registration.
+
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE 
+WILL BE RETURNED.  IF YOU HAVE RECEIVED THIS MESSAGE IN 
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW
+
+Dear {{firstName}} {{lastName}},
+
+Thank you for registering with {{siteName}}
+
+Your registration information is provided below:
+
+User Id:     {{loginName}}
+
+
+TO ACTIVATE YOUR ACCOUNT IT IS NECESSARY TO VISIT THE FOLLOWING LINK:
+
+ {{confUrl}}
+
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}} 
+
+

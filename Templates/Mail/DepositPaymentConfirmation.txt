@@ -1,0 +1,21 @@
+﻿Good Faith Deposit Payment Receipt
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE
+WILL BE RETURNED. IF YOU HAVE RECEIVED THIS MESSAGE IN
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW.
+
+{{firstName}} {{lastName}},
+
+This message has been sent to confirm that you successfully made your good faith deposit payment.
+Transaction ID#: {{TransactionID}}
+Deposit amount: {{amount}}
+{{PaymentType}}
+
+This deposit is fully refundable. If you are not a winning bidder at the end of the auction your deposit will be refunded to you automatically.
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}}

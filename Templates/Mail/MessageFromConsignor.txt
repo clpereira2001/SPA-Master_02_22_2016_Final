@@ -1,0 +1,20 @@
+﻿Message from consignor (from {{firstname}} {{lastname}})
+First Name: {{firstname}} <br/>
+<br/>
+Last Name: {{lastname}}<br/>
+<br/>
+Email: {{email}}<br/>
+<br/>
+Phone: {{phone}}<br/>
+<br/>
+Acquire: {{acquire}}<br/>
+<br/>
+Attorney, trust officer, or financial advisor: {{finance}}<br/>
+<br/>
+Include in Fars free e-mail announcements: {{subscribe}}<br/>
+<br/>
+{{descriptionTitle}}<br/>
+{{description}}<br/>
+<br/>
+
+{{images}}

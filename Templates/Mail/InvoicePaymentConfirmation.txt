@@ -1,0 +1,76 @@
+PAYMENT RECEIPT
+<html>
+	<head>
+	  <title>
+	    PayPal Payment Confirmation
+	  </title>
+  </head>
+	<body style="font-family: Arial, Helvetica, sans-serif;">
+		<div style="width:780px; background-color:#123e6b; height: 130px;">
+				 <img src="http://www.seizedpropertyauctions.com/public/images/logo_1.jpg" alt="" style="float:left" /> <!-- src="cid:logo" -->
+				 <img src="http://www.seizedpropertyauctions.com/public/images/logo_text_tr.gif" alt="" style="float:right; width:560px; margin-right:30px; margin-top:30px" /> <!-- src="cid:logo_text" -->
+		</div>		
+	  <div style='width:750px; border:solid 1px #888888; padding: 10px 10px 20px 20px; background-color:#EFEFEF'>		
+	    <h3 style="color:#004080">Payment Confirmation</h3>		
+          <p>
+            Congratulations and thank you for your prompt payment.<br />            
+            {{text_title}}
+        </p>
+        <br />
+        {{Transaction}}
+        <br /><br />
+        
+        <span style='color:Navy'><strong>Billing and Shipping information</strong></span><br />
+        <div style="background-color:#DEEBF7; border: solid 1px #e2e2e2;width:740px">
+           <table style="table-layout:fixed;padding:10px;margin: 0px;font-size:14px" cellpadding="0" cellspacing="0">
+             {{billing_info}}              
+           </table>
+        </div>
+        <br /><br />
+        <span style='color:Navy'><strong>Invoices</strong></span>        
+        <table style='table-layout:fixed;font-size:14px;' cellpadding="0" cellspacing="0" >
+        <colgroup>          
+          <col width="80px" />
+          <col width="80px" />
+          <col width="390px" />
+          <col width="80px" />
+          <col width="100px" />
+        </colgroup>
+        <tr>
+          <td style='font-weight:bold;background-color:#002868;color:#FFFFFF;padding: 5px 0px 5px 10px;font-size:14px;'>Lot#</td>
+          <td style='font-weight:bold;background-color:#002868;color:#FFFFFF;padding: 5px 0px 5px 10px;font-size:14px;'>Date</td>
+          <td style='font-weight:bold;background-color:#002868;color:#FFFFFF;padding: 5px 0px 5px 10px;font-size:14px;'>Description</td>
+          <td style='font-weight:bold;background-color:#002868;color:#FFFFFF;padding: 5px 0px 5px 10px;font-size:14px;'>Quantity</td>
+          <td style='font-weight:bold;background-color:#002868;color:#FFFFFF;padding: 5px 0px 5px 10px;font-size:14px;'>Amount</td>
+        </tr>
+        
+        {{invoices_info}}
+
+				{{discount_info}}
+
+        <tr>
+          <td style='font-weight:bold;background-color:#DEEBF7;border:solid 1px #e2e2e2;color:#333333;padding: 5px 0px 5px 10px;font-size:14px;text-align:right' colspan=4>Total Paid:</td>
+          <td style='font-weight:bold;background-color:#DEEBF7;border:solid 1px #e2e2e2;color:#333333;padding: 5px 0px 5px 10px;font-size:14px;'>{{TotalDue}}</td>
+        </tr>
+        
+        {{deposits}}
+        
+        </table>
+				
+        
+        <br />
+        <p>          
+          Thank you for bidding on <b style='color:Navy'>SeizedPropertyAuctions.com</b> and we hope you return to bid with us in the future. If you have questions or need assistance, please <a href="{{siteUrl}}/Home/ContactUs">contact us</a>.
+          <br /><br />
+          Sincerely,<br />
+        </p>
+    <p>
+			<b style='color:Navy'>{{siteName}}</b><br />
+			<span >{{siteEmail}}</span><br />
+			<span >{{siteUrl}}</span><br />
+      <br />		
+			<center>{{CompanyName}}, {{CompanyAddress}}<br/>Copyright {{copyrightDate}}</center>
+		</p>
+		</div>
+	</body>
+</html>

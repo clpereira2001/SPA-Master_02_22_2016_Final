@@ -1,0 +1,24 @@
+﻿Outbid Notice for Lot {{auctionID}}
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE
+WILL BE RETURNED. IF YOU HAVE RECEIVED THIS MESSAGE IN
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW.
+
+{{loginName}},
+
+You have been out bid for lot #{{auctionID}}:
+"{{auctionName}}"
+
+The current successful bid is {{currentSuccessfulBid}}
+
+Please follow this link if you would like to bid on this item again:
+{{newBidUrl}}
+
+This lot will close {{auctionEndDate}}
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}}

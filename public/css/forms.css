@@ -1,0 +1,477 @@
+﻿#auction_update_form .field-validation-error { color: #A66126 } 
+
+a { text-decoration: none; color:#0072B0}
+a:hover { color:#262b7e; text-decoration: underline}
+a:visited { color:#262b7e; text-decoration: none}
+
+.control .info,
+.control em { 
+    color: #A66126; 
+}
+
+.control p br {
+    height: 1px;
+    clear: both;
+}
+
+.control span.field-validation-error {
+    color: #A66126;
+}
+
+.control h2 {        
+    color: #518AAA;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0 0 10px;    
+}
+
+.control h3 {
+    color: #518AAA;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+}
+
+.control p {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+}
+
+/*.control p button,
+.control p input.button {
+    padding: 3px 7px;
+    border: solid 1px #518AAA; 
+    font-weight: bold;   
+    width: auto;
+    background-color: #E5EBF0;
+}*/
+
+.control p button:hover,
+.control p input.button:hover {
+    background-color: #9FD3E9;
+}
+
+.control p input.chk {  
+    vertical-align: text-top; 
+    border: 0 none; 
+    width: auto;
+}
+
+.control label {
+    font-weight: normal;
+}
+
+.control p select,
+.control p input {    
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 150px;
+    border: solid 1px #8EA8C1;    
+}
+
+/**
+ * Blue box styles
+ */
+.blue_box {
+    background: #D9E9F0 url('../images/logon_bg.png') no-repeat top left;
+    width: 539px;        
+    margin-top: 11px;
+    padding: 5px 0 15px;
+}
+
+.blue_box h2,
+.blue_box p {    
+    border-left: solid 1px #E4F0F5;
+    border-right: solid 1px #E4F0F5;    
+    background-color: #D9E9F0;
+    margin: 0;
+}
+
+/**
+ * Login control styles
+ */
+#reg_box p { padding: 5px 0; text-align: center; }
+#reg_box { margin: 30px 0 0 0; }
+
+#login_control p {    
+    padding: 0 165px 5px 50px;    
+}
+
+
+#login_control label.remember {
+    font-size: 12px;     
+    margin: 0 10px 0 0;
+}
+
+#login_control p input.remember {
+    border: 0;    
+    vertical-align: middle;    
+}
+
+
+/**
+ * Styles for registration control
+ */  
+#registration h2 {
+    margin-bottom: 10px;
+}
+
+#registration fieldset {
+    border: 0 none;
+    margin: 0 0 20px 0;
+}
+
+#registration .blue_box {
+    background-image: none;
+    padding: 20px 0 10px;
+    width: auto;
+}
+
+#registration p.info {
+    margin-bottom: 5px;
+}
+
+#registration p.left {
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+
+#registration p {
+    padding: 0 75px 0 0;
+    margin: 0 0 5px 0;
+    border: none;
+}
+
+#registration p strong span {
+    font-style: italic;
+}
+
+#registration fieldset input.mi {
+    width: 30px;
+    margin-right: 170px;
+}
+
+/** 
+ * Email regisration control
+ */ 
+#email_registration p {
+    padding: 0 150px 0 0;
+    margin: 0 0 5px 0;
+    border: 0 none;    
+}
+
+#email_registration fieldset {
+    border: 0 none;
+    margin: 0 0 20px 0;
+    padding: 15px 0 0 0;
+}
+
+/*
+#registration fieldset#billing_info { 
+    float: left; 
+}
+
+#registration fieldset#shipping_info { 
+    float: right; 
+}
+
+#registration fieldset#billing_info,
+#registration fieldset#shipping_info {  
+    width: 49%; 
+    margin-top: 10px;
+}
+
+#registration fieldset#shipping_info .chk { 
+    margin: 0; 
+}
+
+#registration fieldset#shipping_info p,
+#registration fieldset#billing_info p { 
+    padding: 0 10px 0 0 ; 
+}
+
+#registration fieldset#billing_info p.left,
+#registration fieldset#shipping_info p.left {
+    height: 35px;
+}
+*/
+
+#registration p select, 
+#registration p input {
+    width: 200px;
+}
+
+#registration p input.chk {
+    width: auto;
+}
+
+
+/*************** Advanced search ***********************************/
+#adv_search h2 {
+    margin-bottom: 10px;
+}
+
+#adv_search fieldset {
+    border: 0 none;
+    margin: 0 0 20px 0;
+}
+
+#adv_search .blue_box {
+    background-image: none;
+    padding: 20px 0 10px;
+    width: auto;
+}
+
+#adv_search p.info {
+    margin-bottom: 5px;
+}
+
+#adv_search p.left {
+    text-align: left;
+    padding: 0 0 0 60px;
+}
+
+#adv_search p {
+    padding: 0 157px 0 0;
+    margin: 0 0 5px 0;
+    border: none;
+}
+
+
+#adv_search p.price {
+    padding: 0 95px 0 0;
+    margin: 0 0 5px 0;
+    border: none;
+}
+
+#adv_search p strong span {
+    font-style: italic;
+}
+
+#adv_search fieldset input.mi {
+    width: 30px;
+    margin-right: 170px;
+}
+
+
+#adv_search p.price input {
+    width: 100px;
+}
+
+
+
+#adv_search p input {
+    width: 200px;
+}
+
+#adv_search p select 
+{
+    margin-right: 52px;
+} 
+
+#adv_search p input.chk {
+    width: 15px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+#adv_search  p.photo {
+    padding: 0 0 0 116px;
+    text-align: left;
+}
+
+#adv_search h4 {
+    font-size: 14px;
+    height: 100%;
+    line-height: 1em;
+    margin-bottom: 1.25em;
+    background-color:#D9E9F0;
+    color:#525252;            
+    padding: 10px 15px;
+}
+
+#adv_search p.exp_date {
+    padding: 0 53px 0 0;
+    margin: 0 0 5px 0;
+    border: none;
+ }    
+ #adv_search p.exp_date input  {
+     width: 100px;
+}   
+
+#adv_search p.city_zip {
+    padding: 0 119px 0 0;
+    margin: 0 0 5px 0;
+    border: none;
+ }    
+ #adv_search p.city_zip input {
+     width: 100px;
+} 
+
+.congratutation p {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+/**
+ * account_common styles
+ */
+ 
+#account_common p {
+    text-align: left;
+    font-size: 16px;
+    text-indent: 50px;    
+    margin-bottom: 10px;
+}
+
+#account_common h2 {
+    font-weight: normal;
+}
+
+#account_common ul {
+    padding-top: 20px;
+    margin-left: 80px;
+    list-style: none none;    
+}
+
+#account_common li {
+    padding: 0 0 0 20px;
+    margin: 0 0 10px 0; 
+}
+
+#account_common li:hover {
+    background-image: url(../images/li_selected_bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#account_common a
+{
+  font-size:14px;
+}
+
+/**
+ * Deal of the week control
+ */
+#deal_of_week br {
+    clear: both;
+}
+
+#deal_of_week h4 {
+    font-weight: bold;
+    text-indent: 20px;
+    margin: 0 0 10px 0;
+}
+
+#deal_of_week p br {
+    clear: none;
+}
+
+#deal_of_week p {
+    text-align: left;
+    padding: 0 30px 0 0;
+}
+
+#deal_of_week #deal_info {
+    padding: 0;
+    margin: 0 0 10px 20px;
+    text-align: justify;
+}
+
+
+
+#deal_of_week p strong {
+    width: 100px;    
+    margin: 0 0 0 10px;
+}
+
+#deal_of_week #Quantity {
+    /*margin: 0 0 0 10px;*/
+    /*text-align: right;*/
+    width: 57px;
+}
+#deal_of_week .shipping{
+    padding-left:75px; color:Red;
+} 
+
+#deal_of_week p label {
+    /*text-align: right;*/
+    text-indent: 10px;
+    width: 85px;
+    float: left;
+    display: block;
+    font-weight: bold;
+} 
+
+#deal_of_week p span {
+    text-align: right;
+}
+
+#deal_of_week #error
+{
+	color: #FF0000;
+	text-align: right;
+	display: none;
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+#deal_of_week div h4 {
+    margin-bottom: 40px;
+}
+
+#deal_of_week #item_image {
+    border: 0 none;
+    background-color: White;
+    padding: 0 10px 10px 0;
+    float: left;
+    clear: right;
+}
+
+#deal_of_week .desc {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#payment fieldset {
+    padding-top: 20px;
+}
+
+#payment p {    
+    padding-right: 105px;
+    margin-bottom: 5px;
+}
+
+#payment p input {
+    width: 240px;
+}
+
+#payment p.city_zip input {
+    width: 140px;
+}
+
+#payment p.exp_date input.f1 {
+    width: 110px;
+}
+
+#payment p.exp_date input.f2 {
+    width: 109px;
+}
+
+#payment p.city_zip input {
+    margin-right: 100px;
+}
+
+#payment .hint {
+    float: right;
+    clear: right;
+    margin-right: 10px;
+}
+
+.attention_text a
+{
+	color: Red;
+	font-weight: bold;
+}

@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 34.25, 26.875" name="Vauction">
+  <DataContextMoniker Name="/VauctionDataContext" />
+  <nestedChildShapes>
+    <classShape Id="aa80165e-358b-423d-bbb1-4b56b15dd430" absoluteBounds="12, 3.75, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/VauctionDataContext/AuctionType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf18da74-e6ea-4ec1-a4c2-3d0fb204b9a0" absoluteBounds="12.015, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="31e844de-e1cd-4d85-ac79-5d4b44b8fe33" absoluteBounds="17.5, 9.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VauctionDataContext/BidWatch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a69d3d5a-3160-4eea-8fa7-74ed2c1de837" absoluteBounds="17.515, 9.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61dd81a1-55ec-4b44-83ef-6125daa34f18" absoluteBounds="0.5, 10.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VauctionDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffb1cf7c-59b4-43bb-90e4-9b6b7c3e8a86" absoluteBounds="0.51499999999999968, 10.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f51cb7a0-84e6-4ac9-b816-51dfbadabe49" absoluteBounds="21.875, 0.5, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/VauctionDataContext/Deposit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f65173c-eb07-47b6-a443-05f31887c65b" absoluteBounds="21.89, 0.96, 1.9700000000000002, 3.9031168619791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0dc31548-7f2f-483b-9d70-108e95c6acb7" absoluteBounds="4.5, 3.375, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/VauctionDataContext/DiscountReason" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd485042-587d-4294-8207-6d9b58ed6b9e" absoluteBounds="4.5150000000000006, 3.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" absoluteBounds="12, 9.625, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/VauctionDataContext/Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ed1c187-bb57-4b39-9ff8-bca740a6b290" absoluteBounds="12.015, 10.085, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="241634bd-4d9c-4f4a-859d-1e18c1ebcc86" absoluteBounds="12, 6.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VauctionDataContext/EventRegistration" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed4853b0-0424-426d-b0ac-a362e8e4efb8" absoluteBounds="12.015, 7.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="52f76e55-1300-4223-8336-4aaadb5d7a58" absoluteBounds="17.5, 12.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/VauctionDataContext/Image" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c94c1559-e88c-4377-88c9-95caea6c25c3" absoluteBounds="17.515, 12.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee52c651-7953-44de-b6c0-68e497107375" absoluteBounds="9, 4.375, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/VauctionDataContext/InvoiceMonthlyControl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c62629db-3d62-4faa-8ebe-ab7a0f5c4527" absoluteBounds="9.015, 4.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec5c17ee-71ba-44de-88ee-0aeb76ef6140" absoluteBounds="12.5, 18.25, 2, 1.5785953776041701">
+      <DataClassMoniker Name="/VauctionDataContext/MainPageLinkItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89c0e3ec-6046-4103-b55c-aea14a0a09c2" absoluteBounds="12.515, 18.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c16e525b-6f54-405d-9b81-5ef53f350ed1" absoluteBounds="15.75, 14.75, 2, 2.9247054036458344">
+      <DataClassMoniker Name="/VauctionDataContext/OuterSubscription" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9c4168b-5180-4bca-9a0c-23ab91e95aaa" absoluteBounds="15.765, 15.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a2a3fc8-65a7-4513-b3f8-3f3e1e17b840" absoluteBounds="0.75, 12.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/VauctionDataContext/PaymentType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8d6c7054-592f-49f0-b7a8-b074a5c62f00" absoluteBounds="0.765, 13.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.5625 : 9.625); (13.5625 : 8.0112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_EventRegistration" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="241634bd-4d9c-4f4a-859d-1e18c1ebcc86" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a66b725e-84cb-43ef-bdcf-b36225723b25" absoluteBounds="32, 14.125, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/VauctionDataContext/WinningBid" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50b4e605-1260-4ad0-a883-2a013854625b" absoluteBounds="32.015, 14.585, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b90db1ce-9771-4132-a82e-f606699bf8dc" absoluteBounds="3.625, 8, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/VauctionDataContext/AddressCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4702ba27-39ab-488e-bfe2-4a9c83eef8a4" absoluteBounds="3.6399999999999997, 8.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 10.6590734863281); (2.77392166666667 : 10.6590734863281 : JumpStart); (2.94058833333333 : 10.6590734863281 : JumpEnd); (3.625 : 10.6590734863281)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Country/Country_AddressCard" />
+      <nodes>
+        <classShapeMoniker Id="61dd81a1-55ec-4b44-83ef-6125daa34f18" />
+        <classShapeMoniker Id="b90db1ce-9771-4132-a82e-f606699bf8dc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(21.875 : 3.46372849905095); (21.5843427514832 : 3.46372849905095); (21.5843427514832 : 3.2182139453125); (21.4583333333333 : 3.2182139453125 : JumpStart); (21.2916666666667 : 3.2182139453125 : JumpEnd); (16.8333333333333 : 3.2182139453125 : JumpStart); (16.6666666666667 : 3.2182139453125 : JumpEnd); (16.3020860833333 : 3.2182139453125 : JumpStart); (16.1354194166667 : 3.2182139453125 : JumpEnd); (15.8333338333333 : 3.2182139453125 : JumpStart); (15.6666666666667 : 3.2182139453125 : JumpEnd); (14.1770833333333 : 3.2182139453125 : JumpStart); (13.9947916666667 : 3.2182139453125 : JumpEnd); (9.33333333333333 : 3.2182139453125 : JumpStart); (9.16666666666667 : 3.2182139453125 : JumpEnd); (8.48958583333333 : 3.2182139453125 : JumpStart); (8.32291916666667 : 3.2182139453125 : JumpEnd); (7.8776463754247 : 3.2182139453125 : JumpStart); (7.71097970875804 : 3.2182139453125 : JumpEnd); (7.02083333333333 : 3.2182139453125 : JumpStart); (6.85416666666667 : 3.2182139453125 : JumpEnd); (2.857255 : 3.2182139453125); (2.857255 : 11.0681469726562); (2.5 : 11.0681469726562)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Deposit/Deposit_Country" />
+      <nodes>
+        <classShapeMoniker Id="f51cb7a0-84e6-4ac9-b816-51dfbadabe49" />
+        <classShapeMoniker Id="61dd81a1-55ec-4b44-83ef-6125daa34f18" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f95afe32-49a5-412f-8402-c043cb02c996" absoluteBounds="8.75, 18.5, 2, 2.15549967447917">
+      <DataClassMoniker Name="/VauctionDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55de6a53-f4f5-46e6-bfee-7fa3593a0161" absoluteBounds="8.765, 18.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54a82136-1b32-4d9f-82e6-afb3358095ba" absoluteBounds="10, 21.5, 2, 2.15549967447917">
+      <DataClassMoniker Name="/VauctionDataContext/CategoriesMap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ddfa32f1-2a5c-416e-904f-1cbcc21a62d8" absoluteBounds="10.015, 21.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.75 : 19.3165104166667); (11.7916666666667 : 19.3165104166667 : JumpStart); (11.9583333333333 : 19.3165104166667 : JumpEnd); (12.0416666666667 : 19.3165104166667 : JumpStart); (12.2083333333333 : 19.3165104166667 : JumpEnd); (12.5 : 19.3165104166667)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Category/Category_MainPageLinkItem" />
+      <nodes>
+        <classShapeMoniker Id="f95afe32-49a5-412f-8402-c043cb02c996" />
+        <classShapeMoniker Id="ec5c17ee-71ba-44de-88ee-0aeb76ef6140" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12 : 22.2618614282853); (12.0416666666667 : 22.2618614282853 : JumpStart); (12.2083333333333 : 22.2618614282853 : JumpEnd); (12.25 : 22.2618614282853); (12.25 : 22.9086805513822); (12.2083333333333 : 22.9086805513822 : JumpStart); (12.0416666666667 : 22.9086805513822 : JumpEnd); (12 : 22.9086805513822)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_CategoriesMap" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.375 : 20.6554996744792); (10.375 : 21.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Category/Category_CategoriesMap" />
+      <nodes>
+        <classShapeMoniker Id="f95afe32-49a5-412f-8402-c043cb02c996" />
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1b842703-4c93-43b4-bb17-3d05d6f0d61b" absoluteBounds="12.625, 21.5, 2, 2.15549967447917">
+      <DataClassMoniker Name="/VauctionDataContext/EventCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70c3a98a-9d10-4c5e-9a1e-1118b7ee5a97" absoluteBounds="12.64, 21.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12 : 21.8184307141426); (12.0416666666667 : 21.8184307141426 : JumpStart); (12.2083333333333 : 21.8184307141426 : JumpEnd); (12.625 : 21.8184307141426)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_EventCategory" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="1b842703-4c93-43b4-bb17-3d05d6f0d61b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" absoluteBounds="6, 5.125, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/VauctionDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0a087d4b-d29c-4fff-8d0f-9fdae0674fd8" absoluteBounds="6.015, 5.585, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8 : 9.25883419921875); (8.07291616666667 : 9.25883419921875 : JumpStart); (8.23958283333333 : 9.25883419921875 : JumpEnd); (8.32291791666667 : 9.25883419921875 : JumpStart); (8.48958458333333 : 9.25883419921875 : JumpEnd); (8.54166666666667 : 9.25883419921875 : JumpStart); (8.83333333333333 : 9.25883419921875 : JumpEnd); (11.1979166666667 : 9.25883419921875 : JumpStart); (11.3645833333333 : 9.25883419921875 : JumpEnd); (11.7916666666667 : 9.25883419921875 : JumpStart); (11.9583333333333 : 9.25883419921875 : JumpEnd); (12.6666646666667 : 9.25883419921875 : JumpStart); (12.8333313333333 : 9.25883419921875 : JumpEnd); (13.4791666666667 : 9.25883419921875 : JumpStart); (13.6458333333333 : 9.25883419921875 : JumpEnd); (14.0104166666667 : 9.25883419921875 : JumpStart); (14.2395833333333 : 9.25883419921875 : JumpEnd); (14.4166666666667 : 9.25883419921875 : JumpStart); (14.5833333333333 : 9.25883419921875 : JumpEnd); (14.625 : 9.25883419921875); (14.625 : 11.3957340494792); (15.1979166666667 : 11.3957340494792 : JumpStart); (15.3645833333333 : 11.3957340494792 : JumpEnd); (16.0260441666667 : 11.3957340494792 : JumpStart); (16.1927108333333 : 11.3957340494792 : JumpEnd); (18.5 : 11.3957340494792); (18.5 : 10.5112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_BidWatch" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="31e844de-e1cd-4d85-ac79-5d4b44b8fe33" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 7.31814697265625); (8.07291616666667 : 7.31814697265625 : JumpStart); (8.23958283333333 : 7.31814697265625 : JumpEnd); (8.66666666666667 : 7.31814697265625 : JumpStart); (8.83333333333333 : 7.31814697265625 : JumpEnd); (11.1979166666667 : 7.31814697265625 : JumpStart); (11.5052108333333 : 7.31814697265625 : JumpEnd); (11.6666666666667 : 7.31814697265625 : JumpStart); (11.9583333333333 : 7.31814697265625 : JumpEnd); (12 : 7.31814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_EventRegistration" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="241634bd-4d9c-4f4a-859d-1e18c1ebcc86" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 5.44314697265625); (9 : 5.44314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_InvoiceMonthlyControl" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="ee52c651-7953-44de-b6c0-68e497107375" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.0937505 : 11.5111311848958); (6.0937505 : 19.6837284342448); (8.32291791666667 : 19.6837284342448 : JumpStart); (8.48958458333333 : 19.6837284342448 : JumpEnd); (8.75 : 19.6837284342448)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Category" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="f95afe32-49a5-412f-8402-c043cb02c996" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.0937505 : 11.5111311848958); (6.0937505 : 22.15625); (8.22916666666667 : 22.15625 : JumpStart); (8.48958458333333 : 22.15625 : JumpEnd); (10 : 22.15625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_CategoriesMap" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 8.71880402994792); (8.07291616666667 : 8.71880402994792 : JumpStart); (8.23958283333333 : 8.71880402994792 : JumpEnd); (8.32291791666667 : 8.71880402994792 : JumpStart); (8.48958458333333 : 8.71880402994792 : JumpEnd); (8.54166666666667 : 8.71880402994792 : JumpStart); (8.83333333333333 : 8.71880402994792 : JumpEnd); (11.1979166666667 : 8.71880402994792 : JumpStart); (11.5052108333333 : 8.71880402994792 : JumpEnd); (11.7916666666667 : 8.71880402994792 : JumpStart); (11.9583333333333 : 8.71880402994792 : JumpEnd); (12.6666646666667 : 8.71880402994792 : JumpStart); (12.8333313333333 : 8.71880402994792 : JumpEnd); (13.4791666666667 : 8.71880402994792 : JumpStart); (13.6458333333333 : 8.71880402994792 : JumpEnd); (14.0104166666667 : 8.71880402994792 : JumpStart); (14.2395833333333 : 8.71880402994792 : JumpEnd); (14.2916666666667 : 8.71880402994792 : JumpStart); (14.5833333333333 : 8.71880402994792 : JumpEnd); (14.5937495 : 8.71880402994792); (14.5937495 : 21.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_EventCategory" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="1b842703-4c93-43b4-bb17-3d05d6f0d61b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 10.3369938659668); (6 : 10.3369938659668)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/AddressCard/AddressCard_User" />
+      <nodes>
+        <classShapeMoniker Id="b90db1ce-9771-4132-a82e-f606699bf8dc" />
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 9.34479820251465); (6 : 9.34479820251465)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/AddressCard/AddressCard_User1" />
+      <nodes>
+        <classShapeMoniker Id="b90db1ce-9771-4132-a82e-f606699bf8dc" />
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" absoluteBounds="14.875, 4.375, 2, 6.7707340494791648">
+      <DataClassMoniker Name="/VauctionDataContext/Auction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe618215-65f9-4382-941f-cfa1599a3338" absoluteBounds="14.89, 4.835, 1.9700000000000002, 6.2107340494791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.875 : 9.81814697265625); (17.5 : 9.81814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_BidWatch" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="31e844de-e1cd-4d85-ac79-5d4b44b8fe33" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.1093775 : 11.1457340494792); (16.1093775 : 13.9832019042969); (17.5 : 13.9832019042969)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_Image" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="52f76e55-1300-4223-8336-4aaadb5d7a58" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 10.3853670247396); (14.0729166666667 : 10.3853670247396 : JumpStart); (14.2395833333333 : 10.3853670247396 : JumpEnd); (14.4166666666667 : 10.3853670247396 : JumpStart); (14.7083333333333 : 10.3853670247396 : JumpEnd); (14.875 : 10.3853670247396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_Auction" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 4.65949625651042); (14.0104166666667 : 4.65949625651042 : JumpStart); (14.4583333333333 : 4.65949625651042 : JumpEnd); (14.6666666666667 : 4.65949625651042 : JumpStart); (14.8333333333333 : 4.65949625651042 : JumpEnd); (14.875 : 4.65949625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/AuctionType/AuctionType_Auction" />
+      <nodes>
+        <classShapeMoniker Id="aa80165e-358b-423d-bbb1-4b56b15dd430" />
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5937495 : 21.5); (14.5937495 : 5.44382717771212); (14.6041666666667 : 5.44382717771212 : JumpStart); (14.8333333333333 : 5.44382717771212 : JumpEnd); (14.875 : 5.44382717771212)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/EventCategory/EventCategory_Auction" />
+      <nodes>
+        <classShapeMoniker Id="1b842703-4c93-43b4-bb17-3d05d6f0d61b" />
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 5.94366684240341); (8.07291616666667 : 5.94366684240341 : JumpStart); (8.23958283333333 : 5.94366684240341 : JumpEnd); (8.32291916666667 : 5.94366684240341 : JumpStart); (8.48958583333333 : 5.94366684240341 : JumpEnd); (8.66666666666667 : 5.94366684240341 : JumpStart); (8.83333333333333 : 5.94366684240341 : JumpEnd); (11.1979166666667 : 5.94366684240341 : JumpStart); (11.5052108333333 : 5.94366684240341 : JumpEnd); (11.6666666666667 : 5.94366684240341 : JumpStart); (11.9583333333333 : 5.94366684240341 : JumpEnd); (13.9947916666667 : 5.94366684240341 : JumpStart); (14.1770833333333 : 5.94366684240341 : JumpEnd); (14.2916666666667 : 5.94366684240341 : JumpStart); (14.4583333333333 : 5.94366684240341 : JumpEnd); (14.5104161666667 : 5.94366684240341 : JumpStart); (14.8333333333333 : 5.94366684240341 : JumpEnd); (14.875 : 5.94366684240341)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Auction" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13 : 13.1266097005209); (13 : 13.875); (13.4791666666667 : 13.875 : JumpStart); (13.6458333333333 : 13.875 : JumpEnd); (14.0729166666667 : 13.875 : JumpStart); (14.2395833333333 : 13.875 : JumpEnd); (14.5104161666667 : 13.875 : JumpStart); (14.6770828333333 : 13.875 : JumpEnd); (14.875 : 13.875); (14.875 : 22.125); (14.625 : 22.125)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_EventCategory" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="1b842703-4c93-43b4-bb17-3d05d6f0d61b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="be70ab98-f8ad-452f-98f7-448c60b30559" absoluteBounds="14.625, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/VauctionDataContext/AuctionStatuse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2118c3de-8bfd-4d0a-9ada-34365a94eb1a" absoluteBounds="14.64, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15.75 : 1.69399251302083); (15.75 : 4.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/AuctionStatuse/AuctionStatuse_Auction" />
+      <nodes>
+        <classShapeMoniker Id="be70ab98-f8ad-452f-98f7-448c60b30559" />
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d61f0ce3-8a5e-40a0-a713-997cc1ed5ea8" absoluteBounds="4.625, 0.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/VauctionDataContext/Variable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="340ed565-869c-4831-b14b-143f8d3005bd" absoluteBounds="4.64, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93ea2f6f-7cd1-4531-92ae-2d7a58c9689b" absoluteBounds="12.25, 14.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/VauctionDataContext/Consignment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3bfc1a0-85d2-4de5-90e1-f58f46c7a487" absoluteBounds="12.265, 14.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.5625 : 13.1266097005208); (13.5625 : 14.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_Consignment" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="93ea2f6f-7cd1-4531-92ae-2d7a58c9689b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 6.26845098632812); (8.07291616666667 : 6.26845098632812 : JumpStart); (8.23958283333333 : 6.26845098632812 : JumpEnd); (8.32291916666667 : 6.26845098632812 : JumpStart); (8.48958583333333 : 6.26845098632812 : JumpEnd); (8.66666666666667 : 6.26845098632812 : JumpStart); (8.83333333333333 : 6.26845098632812 : JumpEnd); (11.1979166666667 : 6.26845098632812 : JumpStart); (11.5052108333333 : 6.26845098632812 : JumpEnd); (11.6666666666667 : 6.26845098632812 : JumpStart); (11.9583333333333 : 6.26845098632812 : JumpEnd); (14.15625 : 6.26845098632812); (14.15625 : 14.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Consignment" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="93ea2f6f-7cd1-4531-92ae-2d7a58c9689b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="75928f67-def3-451e-ad30-78c6275b71fe" absoluteBounds="17.25, 4.375, 2, 3.1170068359374996">
+      <DataClassMoniker Name="/VauctionDataContext/Bid" />
+      <nestedChildShapes>
+        <elementListCompartment Id="251192ca-9147-4b09-8dce-30cadd22bca6" absoluteBounds="17.265, 4.835, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.875 : 5.93350341796875); (17.25 : 5.93350341796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_Bid" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="75928f67-def3-451e-ad30-78c6275b71fe" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 8.2925439453125); (8.07291616666667 : 8.2925439453125 : JumpStart); (8.23958283333333 : 8.2925439453125 : JumpEnd); (8.32291791666667 : 8.2925439453125 : JumpStart); (8.48958458333333 : 8.2925439453125 : JumpEnd); (8.54166666666667 : 8.2925439453125 : JumpStart); (8.83333333333333 : 8.2925439453125 : JumpEnd); (11.1979166666667 : 8.2925439453125 : JumpStart); (11.5052108333333 : 8.2925439453125 : JumpEnd); (11.6666666666667 : 8.2925439453125 : JumpStart); (11.9583333333333 : 8.2925439453125 : JumpEnd); (13.4791666666667 : 8.2925439453125 : JumpStart); (13.6458333333333 : 8.2925439453125 : JumpEnd); (14.0104166666667 : 8.2925439453125 : JumpStart); (14.2395833333333 : 8.2925439453125 : JumpEnd); (14.2916666666667 : 8.2925439453125 : JumpStart); (14.4583333333333 : 8.2925439453125 : JumpEnd); (14.5104161666667 : 8.2925439453125 : JumpStart); (14.6770828333333 : 8.2925439453125 : JumpEnd); (14.75 : 8.2925439453125); (14.75 : 4.125); (15.6666666666667 : 4.125 : JumpStart); (15.8333338333333 : 4.125 : JumpEnd); (16.1354194166667 : 4.125 : JumpStart); (16.3020860833333 : 4.125 : JumpEnd); (16.6666666666667 : 4.125 : JumpStart); (16.8333333333333 : 4.125 : JumpEnd); (18.25 : 4.125); (18.25 : 4.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Bid" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="75928f67-def3-451e-ad30-78c6275b71fe" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ca515cce-afd3-4c4b-8ad0-173202ebbf10" absoluteBounds="19.375, 4.375, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/VauctionDataContext/BidLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25354ab4-feab-4872-91e6-f1c47462da3f" absoluteBounds="19.39, 4.835, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.875 : 7.61940755208333); (19.375 : 7.61940755208333)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_BidLog" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="ca515cce-afd3-4c4b-8ad0-173202ebbf10" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 8.2925439453125); (8.07291616666667 : 8.2925439453125 : JumpStart); (8.23958283333333 : 8.2925439453125 : JumpEnd); (8.32291791666667 : 8.2925439453125 : JumpStart); (8.48958458333333 : 8.2925439453125 : JumpEnd); (8.54166666666667 : 8.2925439453125 : JumpStart); (8.83333333333333 : 8.2925439453125 : JumpEnd); (11.1979166666667 : 8.2925439453125 : JumpStart); (11.5052108333333 : 8.2925439453125 : JumpEnd); (11.6666666666667 : 8.2925439453125 : JumpStart); (11.9583333333333 : 8.2925439453125 : JumpEnd); (13.4791666666667 : 8.2925439453125 : JumpStart); (13.6458333333333 : 8.2925439453125 : JumpEnd); (14.0104166666667 : 8.2925439453125 : JumpStart); (14.2395833333333 : 8.2925439453125 : JumpEnd); (14.2916666666667 : 8.2925439453125 : JumpStart); (14.4583333333333 : 8.2925439453125 : JumpEnd); (14.5104161666667 : 8.2925439453125 : JumpStart); (14.6770828333333 : 8.2925439453125 : JumpEnd); (14.6875 : 8.2925439453125); (14.6875 : 4.25); (15.6666666666667 : 4.25 : JumpStart); (15.8333338333333 : 4.25 : JumpEnd); (16.1354194166667 : 4.25 : JumpStart); (16.3020860833333 : 4.25 : JumpEnd); (16.6666666666667 : 4.25 : JumpStart); (16.8333333333333 : 4.25 : JumpEnd); (18.1666666666667 : 4.25 : JumpStart); (18.3333333333333 : 4.25 : JumpEnd); (20.375 : 4.25); (20.375 : 4.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_BidLog" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="ca515cce-afd3-4c4b-8ad0-173202ebbf10" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" absoluteBounds="9, 12.625, 2, 5.8092268880208344">
+      <DataClassMoniker Name="/VauctionDataContext/Invoice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="987c9405-0b2c-45c0-a6d5-8b615279498d" absoluteBounds="9.015, 13.085, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.25 : 14.9142976888021); (12.2083333333333 : 14.9142976888021 : JumpStart); (12.0416666666667 : 14.9142976888021 : JumpEnd); (11.9583333333333 : 14.9142976888021 : JumpStart); (11.7916666666667 : 14.9142976888021 : JumpEnd); (11 : 14.9142976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Consignment/Consignment_Invoice" />
+      <nodes>
+        <classShapeMoniker Id="93ea2f6f-7cd1-4531-92ae-2d7a58c9689b" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.28125 : 11.1457340494792); (15.28125 : 13.5320548502604); (14.6770828333333 : 13.5320548502604 : JumpStart); (14.5104161666667 : 13.5320548502604 : JumpEnd); (14.2395833333333 : 13.5320548502604 : JumpStart); (14.0729166666667 : 13.5320548502604 : JumpEnd); (13.6458333333333 : 13.5320548502604 : JumpStart); (13.4791666666667 : 13.5320548502604 : JumpEnd); (13.0833333333333 : 13.5320548502604 : JumpStart); (12.9166666666667 : 13.5320548502604 : JumpEnd); (12.2083333333333 : 13.5320548502604 : JumpStart); (12.0416666666667 : 13.5320548502604 : JumpEnd); (11.9583333333333 : 13.5320548502604 : JumpStart); (11.7916666666667 : 13.5320548502604 : JumpEnd); (11.3333333333333 : 13.5320548502604 : JumpStart); (11.1666666666667 : 13.5320548502604 : JumpEnd); (11 : 13.5320548502604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_Invoice" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 4.03449575651042); (6.85416666666667 : 4.03449575651042 : JumpStart); (7.02083333333333 : 4.03449575651042 : JumpEnd); (7.58854341666667 : 4.03449575651042 : JumpStart); (7.8776463754247 : 4.03449575651042 : JumpEnd); (8.07291616666667 : 4.03449575651042 : JumpStart); (8.23958283333333 : 4.03449575651042 : JumpEnd); (8.32291916666667 : 4.03449575651042 : JumpStart); (8.48958583333333 : 4.03449575651042 : JumpEnd); (8.75 : 4.03449575651042); (8.75 : 12.25); (10 : 12.25); (10 : 12.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/DiscountReason/DiscountReason_Invoice" />
+      <nodes>
+        <classShapeMoniker Id="0dc31548-7f2f-483b-9d70-108e95c6acb7" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.0937505 : 11.5111311848958); (6.0937505 : 18.1722233072917); (8.22916666666667 : 18.1722233072917 : JumpStart); (8.48958458333333 : 18.1722233072917 : JumpEnd); (9 : 18.1722233072917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Invoice" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a9ed7098-4ace-4217-82fc-400bc3e62ab1" absoluteBounds="16.875, 22.25, 2, 1.5785953776041701">
+      <DataClassMoniker Name="/VauctionDataContext/UserInvoice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46db1828-48e4-47fe-a7d3-8d8ca1424cc2" absoluteBounds="16.89, 22.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(17.875 : 22.25); (17.875 : 17.9247054036458); (14.9583333333333 : 17.9247054036458 : JumpStart); (14.7916666666667 : 17.9247054036458 : JumpEnd); (14.6770828333333 : 17.9247054036458 : JumpStart); (14.5104161666667 : 17.9247054036458 : JumpEnd); (12.2083333333333 : 17.9247054036458 : JumpStart); (12.0416666666667 : 17.9247054036458 : JumpEnd); (11.9583333333333 : 17.9247054036458 : JumpStart); (11.7916666666667 : 17.9247054036458 : JumpEnd); (11.375 : 17.9247054036458); (11.375 : 16.7055142884115); (11 : 16.7055142884115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/UserInvoice/UserInvoice_Invoice" />
+      <nodes>
+        <classShapeMoniker Id="a9ed7098-4ace-4217-82fc-400bc3e62ab1" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.125 : 13.1266097005208); (12.125 : 23.7732975260417); (16.875 : 23.7732975260417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_UserInvoice" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="a9ed7098-4ace-4217-82fc-400bc3e62ab1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.70312775 : 11.5111311848958); (6.70312775 : 12.9375); (8.3125 : 12.9375); (8.3125 : 22.8125); (9.9375 : 22.8125); (9.9375 : 23.7179996744792); (16.78125 : 23.7179996744792); (16.78125 : 23.0392976888021); (16.875 : 23.0392976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_UserInvoice" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="a9ed7098-4ace-4217-82fc-400bc3e62ab1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="52ad02ba-f730-457d-a026-43a02d06d45e" absoluteBounds="6.25, 13, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/VauctionDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a3faa25-0b21-412d-ab09-54d0abc9f4ad" absoluteBounds="6.265, 13.46, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 16.0610748291016); (8.32291791666667 : 16.0610748291016 : JumpStart); (8.48958458333333 : 16.0610748291016 : JumpEnd); (9 : 16.0610748291016)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Payment/Payment_Invoice" />
+      <nodes>
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.25 : 14.9142976888021); (12.2083333333333 : 14.9142976888021 : JumpStart); (12.0416666666667 : 14.9142976888021 : JumpEnd); (11.9583333333333 : 14.9142976888021 : JumpStart); (11.7916666666667 : 14.9142976888021 : JumpEnd); (11.25 : 14.9142976888021); (11.25 : 12.375); (10.0833333333333 : 12.375 : JumpStart); (9.91666666666667 : 12.375 : JumpEnd); (8.48958458333333 : 12.375 : JumpStart); (8.32291791666667 : 12.375 : JumpEnd); (8.23958283333333 : 12.375 : JumpStart); (8.07291616666667 : 12.375 : JumpEnd); (7.97786702083333 : 12.375 : JumpStart); (7.81120035416667 : 12.375 : JumpEnd); (7.476563375 : 12.375); (7.476563375 : 13)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Consignment/Consignment_Payment" />
+      <nodes>
+        <classShapeMoniker Id="93ea2f6f-7cd1-4531-92ae-2d7a58c9689b" />
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.875 : 7.75437795043945); (14.8333333333333 : 7.75437795043945 : JumpStart); (14.5104161666667 : 7.75437795043945 : JumpEnd); (14.4583333333333 : 7.75437795043945 : JumpStart); (14.2916666666667 : 7.75437795043945 : JumpEnd); (14.25 : 7.75437795043945); (14.25 : 8.1362939453125); (14.2395833333333 : 8.1362939453125 : JumpStart); (14.0104166666667 : 8.1362939453125 : JumpEnd); (13.6458333333333 : 8.1362939453125 : JumpStart); (13.4791666666667 : 8.1362939453125 : JumpEnd); (11.9583333333333 : 8.1362939453125 : JumpStart); (11.6666666666667 : 8.1362939453125 : JumpEnd); (11.5052108333333 : 8.1362939453125 : JumpStart); (11.1979166666667 : 8.1362939453125 : JumpEnd); (8.83333333333333 : 8.1362939453125 : JumpStart); (8.66666666666667 : 8.1362939453125 : JumpEnd); (8.625 : 8.1362939453125); (8.625 : 11.7611311848958); (8.48958458333333 : 11.7611311848958 : JumpStart); (8.32291791666667 : 11.7611311848958 : JumpEnd); (8.23958283333333 : 11.7611311848958 : JumpStart); (8.07291616666667 : 11.7611311848958 : JumpEnd); (7.8945336875 : 11.7611311848958); (7.8945336875 : 13)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_Payment" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 3.73599537825521); (6.85416666666667 : 3.73599537825521 : JumpStart); (7.02083333333333 : 3.73599537825521 : JumpEnd); (7.58854341666667 : 3.73599537825521 : JumpStart); (7.8776463754247 : 3.73599537825521 : JumpEnd); (8.1562495 : 3.73599537825521); (8.1562495 : 13)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/DiscountReason/DiscountReason_Payment" />
+      <nodes>
+        <classShapeMoniker Id="0dc31548-7f2f-483b-9d70-108e95c6acb7" />
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.96875 : 14.0689925130208); (0.96875 : 15.5729484049479); (6.25 : 15.5729484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/PaymentType/PaymentType_Payment" />
+      <nodes>
+        <classShapeMoniker Id="8a2a3fc8-65a7-4513-b3f8-3f3e1e17b840" />
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.125 : 11.5111311848958); (7.125 : 13)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Payment" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.875 : 22.9803965130208); (15.25 : 22.9803965130208); (15.25 : 21.25); (14.9583333333333 : 21.25 : JumpStart); (14.7916666666667 : 21.25 : JumpEnd); (14.6770828333333 : 21.25 : JumpStart); (14.5104161666667 : 21.25 : JumpEnd); (13.6614560833333 : 21.25 : JumpStart); (13.4947894166667 : 21.25 : JumpEnd); (12.2083333333333 : 21.25 : JumpStart); (12.0416666666667 : 21.25 : JumpEnd); (10.4583333333333 : 21.25 : JumpStart); (10.2916666666667 : 21.25 : JumpEnd); (8.48958458333333 : 21.25 : JumpStart); (8.22916666666667 : 21.25 : JumpEnd); (7.25 : 21.25); (7.25 : 17.8477197265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/UserInvoice/UserInvoice_Payment" />
+      <nodes>
+        <classShapeMoniker Id="a9ed7098-4ace-4217-82fc-400bc3e62ab1" />
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 14.4680374145508); (8.32291791666667 : 14.4680374145508 : JumpStart); (8.48958458333333 : 14.4680374145508 : JumpEnd); (9 : 14.4680374145508)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Payment/Payment_Invoice1" />
+      <nodes>
+        <classShapeMoniker Id="52ad02ba-f730-457d-a026-43a02d06d45e" />
+        <classShapeMoniker Id="febbe7ef-fc52-466e-a196-e5e15e17aaba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 11.8541170247396); (14.0729166666667 : 11.8541170247396 : JumpStart); (14.2395833333333 : 11.8541170247396 : JumpEnd); (14.5104161666667 : 11.8541170247396 : JumpStart); (14.6770828333333 : 11.8541170247396 : JumpEnd); (15.1979166666667 : 11.8541170247396 : JumpStart); (15.3645833333333 : 11.8541170247396 : JumpEnd); (16.0260441666667 : 11.8541170247396 : JumpStart); (16.1927108333333 : 11.8541170247396 : JumpEnd); (23.21875 : 11.8541170247396); (23.21875 : 4.96311686197917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_Deposit" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="f51cb7a0-84e6-4ac9-b816-51dfbadabe49" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.67187675 : 5.125); (7.67187675 : 3.5); (7.71097970875804 : 3.5 : JumpStart); (7.8776463754247 : 3.5 : JumpEnd); (8.32291916666667 : 3.5 : JumpStart); (8.48958583333333 : 3.5 : JumpEnd); (9.16666666666667 : 3.5 : JumpStart); (9.33333333333333 : 3.5 : JumpEnd); (11.1979166666667 : 3.5 : JumpStart); (11.5052108333333 : 3.5 : JumpEnd); (13.9947916666667 : 3.5 : JumpStart); (14.1770833333333 : 3.5 : JumpEnd); (15.6666666666667 : 3.5 : JumpStart); (15.8333338333333 : 3.5 : JumpEnd); (16.1354194166667 : 3.5 : JumpStart); (16.3020860833333 : 3.5 : JumpEnd); (16.625 : 3.5); (16.625 : 4.05930826822917); (16.6666666666667 : 4.05930826822917 : JumpStart); (16.8333333333333 : 4.05930826822917 : JumpEnd); (20.1666666666667 : 4.05930826822917 : JumpStart); (20.3333333333333 : 4.05930826822917 : JumpEnd); (21.375 : 4.05930826822917); (21.375 : 1.85910747265625); (21.875 : 1.85910747265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_Deposit" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="f51cb7a0-84e6-4ac9-b816-51dfbadabe49" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" absoluteBounds="7.5, 22.875, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/VauctionDataContext/PersonalShopperItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d8492ee-4213-44a9-9875-bc59c67a8a67" absoluteBounds="7.5150000000000006, 23.335, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10 : 23.1690991210938); (9.5 : 23.1690991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_PersonalShopperItem" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10 : 22.9595495605469); (9.5 : 22.9595495605469)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_PersonalShopperItem1" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10 : 23.4747993977865); (9.5 : 23.4747993977865)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_PersonalShopperItem2" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10 : 23.3219492594401); (9.5 : 23.3219492594401)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_PersonalShopperItem3" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10 : 23.6276495361328); (9.5 : 23.6276495361328)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CategoriesMap/CategoriesMap_PersonalShopperItem4" />
+      <nodes>
+        <classShapeMoniker Id="54a82136-1b32-4d9f-82e6-afb3358095ba" />
+        <classShapeMoniker Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 7.49362750813802); (8.07291616666667 : 7.49362750813802 : JumpStart); (8.23958283333333 : 7.49362750813802 : JumpEnd); (8.40625125 : 7.49362750813802); (8.40625125 : 22.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_PersonalShopperItem" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="38b98b9e-7d9c-42c5-b807-0eff104cd26b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3f983bd8-617c-4c38-a0c9-3a9d89ab8fda" absoluteBounds="16.875, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/VauctionDataContext/BidCurrent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00219100-ace1-4df4-9077-cfc626770ec0" absoluteBounds="16.89, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15.7500005 : 4.375); (15.7500005 : 2.45610422916667); (16.1354194166667 : 2.45610422916667 : JumpStart); (16.3020860833333 : 2.45610422916667 : JumpEnd); (16.875 : 2.45610422916667)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_BidCurrent" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="3f983bd8-617c-4c38-a0c9-3a9d89ab8fda" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 8.98881911458333); (8.07291616666667 : 8.98881911458333 : JumpStart); (8.23958283333333 : 8.98881911458333 : JumpEnd); (8.32291791666667 : 8.98881911458333 : JumpStart); (8.48958458333333 : 8.98881911458333 : JumpEnd); (8.54166666666667 : 8.98881911458333 : JumpStart); (8.83333333333333 : 8.98881911458333 : JumpEnd); (11.1979166666667 : 8.98881911458333 : JumpStart); (11.3645833333333 : 8.98881911458333 : JumpEnd); (11.7916666666667 : 8.98881911458333 : JumpStart); (11.9583333333333 : 8.98881911458333 : JumpEnd); (12.6666646666667 : 8.98881911458333 : JumpStart); (12.8333313333333 : 8.98881911458333 : JumpEnd); (13.4791666666667 : 8.98881911458333 : JumpStart); (13.6458333333333 : 8.98881911458333 : JumpEnd); (14.0104166666667 : 8.98881911458333 : JumpStart); (14.2395833333333 : 8.98881911458333 : JumpEnd); (14.375 : 8.98881911458333); (14.375 : 3.9375); (15.6666666666667 : 3.9375 : JumpStart); (15.8333338333333 : 3.9375 : JumpEnd); (16.1354194166667 : 3.9375 : JumpStart); (16.3020860833333 : 3.9375 : JumpEnd); (16.5416666666667 : 3.9375 : JumpStart); (16.8333333333333 : 3.9375 : JumpEnd); (17.5625005 : 3.9375); (17.5625005 : 3.80930826822917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_BidCurrent" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="3f983bd8-617c-4c38-a0c9-3a9d89ab8fda" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="77dec2df-6cd6-4e8d-b949-98b0f09accc1" absoluteBounds="19.25, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/VauctionDataContext/BidLogCurrent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da912b15-5da0-4337-8592-8bf928a31bd8" absoluteBounds="19.265, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.21875275 : 4.375); (16.21875275 : 2.15465413411458); (16.8125 : 2.15465413411458); (16.8125 : 0.4375); (19.15625 : 0.4375); (19.15625 : 1.85910747265625); (19.25 : 1.85910747265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_BidLogCurrent" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="77dec2df-6cd6-4e8d-b949-98b0f09accc1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 6.01486996582031); (8.07291616666667 : 6.01486996582031 : JumpStart); (8.23958283333333 : 6.01486996582031 : JumpEnd); (8.32291916666667 : 6.01486996582031 : JumpStart); (8.48958583333333 : 6.01486996582031 : JumpEnd); (8.66666666666667 : 6.01486996582031 : JumpStart); (8.83333333333333 : 6.01486996582031 : JumpEnd); (11.1979166666667 : 6.01486996582031 : JumpStart); (11.5052108333333 : 6.01486996582031 : JumpEnd); (11.6666666666667 : 6.01486996582031 : JumpStart); (11.9583333333333 : 6.01486996582031 : JumpEnd); (13.9947916666667 : 6.01486996582031 : JumpStart); (14.1770833333333 : 6.01486996582031 : JumpEnd); (14.25 : 6.01486996582031); (14.25 : 4.3125); (14.2916666666667 : 4.3125 : JumpStart); (14.4583333333333 : 4.3125 : JumpEnd); (14.6666666666667 : 4.3125 : JumpStart); (14.8333333333333 : 4.3125 : JumpEnd); (20.25 : 4.3125); (20.25 : 3.80930826822917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_BidLogCurrent" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="77dec2df-6cd6-4e8d-b949-98b0f09accc1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b139373d-6efa-427e-bdce-4905e7a2fa30" absoluteBounds="7.25, 0.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/VauctionDataContext/TableForReserve" />
+      <nestedChildShapes>
+        <elementListCompartment Id="006b0fb1-a322-456e-a60b-ae5b60145928" absoluteBounds="7.2650000000000006, 1.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.875 : 7.15370695556641); (14.8333333333333 : 7.15370695556641 : JumpStart); (14.5104161666667 : 7.15370695556641 : JumpEnd); (14.4583333333333 : 7.15370695556641 : JumpStart); (14.2916666666667 : 7.15370695556641 : JumpEnd); (14.25 : 7.15370695556641); (14.25 : 6.5); (14.2395833333333 : 6.5 : JumpStart); (14.0104166666667 : 6.5 : JumpEnd); (11.9583333333333 : 6.5 : JumpStart); (11.6666666666667 : 6.5 : JumpEnd); (11.5052108333333 : 6.5 : JumpStart); (11.1979166666667 : 6.5 : JumpEnd); (8.83333333333333 : 6.5 : JumpStart); (8.66666666666667 : 6.5 : JumpEnd); (8.4062525 : 6.5); (8.4062525 : 2.39589680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_TableForReserve" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="b139373d-6efa-427e-bdce-4905e7a2fa30" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.79431304209137 : 5.125); (7.79431304209137 : 2.39589680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_TableForReserve" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="b139373d-6efa-427e-bdce-4905e7a2fa30" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a07d1498-5c02-44c1-9dff-25e85d1e4131" absoluteBounds="0.5, 0.5, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/VauctionDataContext/AuctionListing" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8373c07b-c2da-4db5-a385-4296e4fce964" absoluteBounds="0.51500000000000057, 0.96, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.749998 : 9.625); (12.749998 : 8.5112939453125); (11.9583333333333 : 8.5112939453125 : JumpStart); (11.7916666666667 : 8.5112939453125 : JumpEnd); (11.75 : 8.5112939453125); (11.75 : 4.10740397135417); (11.5052108333333 : 4.10740397135417 : JumpStart); (11.1979166666667 : 4.10740397135417 : JumpEnd); (9.25 : 4.10740397135417); (9.25 : 2.10798773036859); (2.5 : 2.10798773036859)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Event/Event_AuctionListing" />
+      <nodes>
+        <classShapeMoniker Id="8e2a951c-aa56-4e79-82d2-96928fff65bd" />
+        <classShapeMoniker Id="a07d1498-5c02-44c1-9dff-25e85d1e4131" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.57812275 : 21.5); (13.57812275 : 20.0785953776042); (12.2083333333333 : 20.0785953776042 : JumpStart); (12.0416666666667 : 20.0785953776042 : JumpEnd); (11.875 : 20.0785953776042); (11.875 : 3.60740397135417); (11.5052108333333 : 3.60740397135417 : JumpStart); (11.1979166666667 : 3.60740397135417 : JumpEnd); (9.33333333333333 : 3.60740397135417 : JumpStart); (9.16666666666667 : 3.60740397135417 : JumpEnd); (9 : 3.60740397135417); (9 : 3.58170301231971); (8.48958583333333 : 3.58170301231971 : JumpStart); (8.32291916666667 : 3.58170301231971 : JumpEnd); (7.8776463754247 : 3.58170301231971 : JumpStart); (7.71097970875804 : 3.58170301231971 : JumpEnd); (7.02083333333333 : 3.58170301231971 : JumpStart); (6.85416666666667 : 3.58170301231971 : JumpEnd); (2.94058833333333 : 3.58170301231971 : JumpStart); (2.77392166666667 : 3.58170301231971 : JumpEnd); (2.5 : 3.58170301231971)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/EventCategory/EventCategory_AuctionListing" />
+      <nodes>
+        <classShapeMoniker Id="1b842703-4c93-43b4-bb17-3d05d6f0d61b" />
+        <classShapeMoniker Id="a07d1498-5c02-44c1-9dff-25e85d1e4131" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.9375 : 5.125); (6.9375 : 2.83830537760417); (2.5 : 2.83830537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_AuctionListing" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="a07d1498-5c02-44c1-9dff-25e85d1e4131" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="88076dd8-5bd0-446e-9087-507c58fbb0c3" absoluteBounds="0.5, 5.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/VauctionDataContext/AuctionListingImage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8a7c0db-3db7-4d35-8077-f19830b0c695" absoluteBounds="0.51500000000000057, 5.7100000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 5.15541829427083); (1.5 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/AuctionListing/AuctionListing_AuctionListingImage" />
+      <nodes>
+        <classShapeMoniker Id="a07d1498-5c02-44c1-9dff-25e85d1e4131" />
+        <classShapeMoniker Id="88076dd8-5bd0-446e-9087-507c58fbb0c3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d1935c01-f03a-42db-90cf-d07953a48061" absoluteBounds="12.125, 0.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/VauctionDataContext/AuctionResult" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d50c713f-bbde-45cf-8e69-1308f0a1a1b8" absoluteBounds="12.14, 1.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.75 : 4.375); (16.75 : 2.74570516796875); (16.3020860833333 : 2.74570516796875 : JumpStart); (16.1354194166667 : 2.74570516796875 : JumpEnd); (15.8333338333333 : 2.74570516796875 : JumpStart); (15.6666666666667 : 2.74570516796875 : JumpEnd); (14.125 : 2.74570516796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_AuctionResult" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="d1935c01-f03a-42db-90cf-d07953a48061" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 9.44191959960937); (8.07291616666667 : 9.44191959960937 : JumpStart); (8.23958283333333 : 9.44191959960937 : JumpEnd); (8.32291791666667 : 9.44191959960937 : JumpStart); (8.48958458333333 : 9.44191959960937 : JumpEnd); (8.54166666666667 : 9.44191959960937 : JumpStart); (8.83333333333333 : 9.44191959960937 : JumpEnd); (11.1979166666667 : 9.44191959960937 : JumpStart); (11.3645833333333 : 9.44191959960937 : JumpEnd); (11.7916666666667 : 9.44191959960937 : JumpStart); (11.9583333333333 : 9.44191959960937 : JumpEnd); (12.6666646666667 : 9.44191959960937 : JumpStart); (12.8333313333333 : 9.44191959960937 : JumpEnd); (13.4791666666667 : 9.44191959960937 : JumpStart); (13.6458333333333 : 9.44191959960937 : JumpEnd); (14.09375 : 9.44191959960937); (14.09375 : 2.97280110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_AuctionResult" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="d1935c01-f03a-42db-90cf-d07953a48061" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 6.41547799316406); (8.07291616666667 : 6.41547799316406 : JumpStart); (8.23958283333333 : 6.41547799316406 : JumpEnd); (8.32291916666667 : 6.41547799316406 : JumpStart); (8.48958583333333 : 6.41547799316406 : JumpEnd); (8.66666666666667 : 6.41547799316406 : JumpStart); (8.83333333333333 : 6.41547799316406 : JumpEnd); (11.1979166666667 : 6.41547799316406 : JumpStart); (11.5052108333333 : 6.41547799316406 : JumpEnd); (11.6666666666667 : 6.41547799316406 : JumpStart); (11.9583333333333 : 6.41547799316406 : JumpEnd); (14.078125 : 6.41547799316406); (14.078125 : 2.97280110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_AuctionResult1" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="d1935c01-f03a-42db-90cf-d07953a48061" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a59bcc3f-de86-45e9-a373-42959c516e76" absoluteBounds="3.625, 12.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/VauctionDataContext/State" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc1cd1fe-cf4e-4534-bfcd-ecfdfe23b976" absoluteBounds="3.6399999999999997, 13.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 12.625); (4.625 : 11.5016097005208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/State/State_AddressCard" />
+      <nodes>
+        <classShapeMoniker Id="a59bcc3f-de86-45e9-a373-42959c516e76" />
+        <classShapeMoniker Id="b90db1ce-9771-4132-a82e-f606699bf8dc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.59375 : 11.7612939453125); (0.59375 : 14.2636946614583); (0.885416666666667 : 14.2636946614583 : JumpStart); (1.05208333333333 : 14.2636946614583 : JumpEnd); (3.625 : 14.2636946614583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Country/Country_State" />
+      <nodes>
+        <classShapeMoniker Id="61dd81a1-55ec-4b44-83ef-6125daa34f18" />
+        <classShapeMoniker Id="a59bcc3f-de86-45e9-a373-42959c516e76" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="72f30532-daf2-4e9a-b112-b1a328c95919" absoluteBounds="9.5, 0.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/VauctionDataContext/CommissionRate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4779749f-0908-452c-877e-a15744931ded" absoluteBounds="9.515, 1.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.28125 : 3.35740397135417); (11.28125 : 10.5077778922526); (8.83333333333333 : 10.5077778922526 : JumpStart); (8.54166666666667 : 10.5077778922526 : JumpEnd); (8.48958458333333 : 10.5077778922526 : JumpStart); (8.32291791666667 : 10.5077778922526 : JumpEnd); (8.23958283333333 : 10.5077778922526 : JumpStart); (8.07291616666667 : 10.5077778922526 : JumpEnd); (8 : 10.5077778922526)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CommissionRate/CommissionRate_User" />
+      <nodes>
+        <classShapeMoniker Id="72f30532-daf2-4e9a-b112-b1a328c95919" />
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.4218775 : 3.35740397135417); (11.4218775 : 8.85381157226563); (11.7916666666667 : 8.85381157226563 : JumpStart); (11.9583333333333 : 8.85381157226563 : JumpEnd); (12.6666646666667 : 8.85381157226563 : JumpStart); (12.8333313333333 : 8.85381157226563 : JumpEnd); (13.4791666666667 : 8.85381157226563 : JumpStart); (13.6458333333333 : 8.85381157226563 : JumpEnd); (14.0104166666667 : 8.85381157226563 : JumpStart); (14.2395833333333 : 8.85381157226563 : JumpEnd); (14.2916666666667 : 8.85381157226563 : JumpStart); (14.6770828333333 : 8.85381157226563 : JumpEnd); (14.875 : 8.85381157226563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/CommissionRate/CommissionRate_Auction" />
+      <nodes>
+        <classShapeMoniker Id="72f30532-daf2-4e9a-b112-b1a328c95919" />
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c73dcfee-12db-4622-980f-ab3d5c94c406" absoluteBounds="20.5, 12.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/VauctionDataContext/Email" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c294301-fe24-4299-8a57-2429c3d31e65" absoluteBounds="20.515, 12.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e558c911-a8ee-470e-9661-11bc6c2b3e9e" absoluteBounds="19.5, 22.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/VauctionDataContext/Email_Subscriber" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1c061a9-2ab1-443d-a4a2-eecf2b58d493" absoluteBounds="19.515, 22.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f54aee74-0ec1-4636-8727-217dfa7304ba" absoluteBounds="3.375, 18, 2, 1.3862939453125">
+      <DataClassMoniker Name="/VauctionDataContext/DiscountUserLimitation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7751733-7e7e-4355-b96c-679906094c65" absoluteBounds="3.3899999999999997, 18.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.0937505 : 11.5111311848958); (6.0937505 : 18.7119571940104); (5.375 : 18.7119571940104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_DiscountUserLimitation" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="f54aee74-0ec1-4636-8727-217dfa7304ba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a3a85e02-54e1-4938-80d3-e5cba1bc3390" absoluteBounds="1, 16.625, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/VauctionDataContext/Discount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40545adb-e70e-42a5-a14f-57d4f140c754" absoluteBounds="1.0150000000000001, 17.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 18.6931469726563); (3.375 : 18.6931469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Discount/Discount_DiscountUserLimitation" />
+      <nodes>
+        <classShapeMoniker Id="a3a85e02-54e1-4938-80d3-e5cba1bc3390" />
+        <classShapeMoniker Id="f54aee74-0ec1-4636-8727-217dfa7304ba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="230c031d-19a9-42ed-911f-7c006dab84a3" absoluteBounds="19.875, 9.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/VauctionDataContext/BidWatchCurrent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45622456-77f7-4d05-bddc-6371a01feca2" absoluteBounds="19.89, 9.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.875 : 10.8597664973958); (18.4166666666667 : 10.8597664973958 : JumpStart); (18.5833333333333 : 10.8597664973958 : JumpEnd); (20.875 : 10.8597664973958); (20.875 : 10.5112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/Auction/Auction_BidWatchCurrent" />
+      <nodes>
+        <classShapeMoniker Id="c6f3ed42-4e17-4c4c-b494-3358109f3b39" />
+        <classShapeMoniker Id="230c031d-19a9-42ed-911f-7c006dab84a3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 8.4331714453125); (8.07291616666667 : 8.4331714453125 : JumpStart); (8.23958283333333 : 8.4331714453125 : JumpEnd); (8.32291791666667 : 8.4331714453125 : JumpStart); (8.48958458333333 : 8.4331714453125 : JumpEnd); (8.54166666666667 : 8.4331714453125 : JumpStart); (8.83333333333333 : 8.4331714453125 : JumpEnd); (11.1979166666667 : 8.4331714453125 : JumpStart); (11.5052108333333 : 8.4331714453125 : JumpEnd); (11.7916666666667 : 8.4331714453125 : JumpStart); (11.9583333333333 : 8.4331714453125 : JumpEnd); (13.4791666666667 : 8.4331714453125 : JumpStart); (13.6458333333333 : 8.4331714453125 : JumpEnd); (14.0104166666667 : 8.4331714453125 : JumpStart); (14.2395833333333 : 8.4331714453125 : JumpEnd); (14.2916666666667 : 8.4331714453125 : JumpStart); (14.4583333333333 : 8.4331714453125 : JumpEnd); (14.5 : 8.4331714453125); (14.5 : 11.5207340494792); (14.5104161666667 : 11.5207340494792 : JumpStart); (14.6770828333333 : 11.5207340494792 : JumpEnd); (15.1979166666667 : 11.5207340494792 : JumpStart); (15.3645833333333 : 11.5207340494792 : JumpEnd); (16.0260441666667 : 11.5207340494792 : JumpStart); (16.1927108333333 : 11.5207340494792 : JumpEnd); (20.875 : 11.5207340494792); (20.875 : 10.5112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VauctionDataContext/User/User_BidWatchCurrent" />
+      <nodes>
+        <classShapeMoniker Id="38c1728d-4bcf-4bc7-aac7-526bcb21becd" />
+        <classShapeMoniker Id="230c031d-19a9-42ed-911f-7c006dab84a3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fdb25cb7-9e80-41b7-87dd-c181dec45a44" absoluteBounds="0.5, 7.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/VauctionDataContext/vwCategoriesMap_Full" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14ce3291-e007-443d-adfc-9cf14aae4976" absoluteBounds="0.51499999999999968, 7.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93619e71-bc1e-4749-b8a2-8e783b52e3d6" absoluteBounds="23.125, 12.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/VauctionDataContext/Email_Subscriber1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d37fdaf-b144-4820-a9d8-658136d13424" absoluteBounds="23.14, 13.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

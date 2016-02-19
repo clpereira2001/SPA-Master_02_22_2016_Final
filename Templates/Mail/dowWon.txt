@@ -1,0 +1,20 @@
+﻿Deal of the Week Item: Lot# {{auctionID}}. Successfully Reserverd for 15 minutes.
+DO NOT RESPOND TO THIS MESSAGE DIRECTLY AS YOUR MESSAGE
+WILL BE RETURNED. IF YOU HAVE RECEIVED THIS MESSAGE IN
+ERROR, PLEASE CONTACT US AT THE ADDRESS SPECIFIED BELOW.
+
+{{firstName}} {{lastName}},
+
+This message has been sent to you to confirm you have successfully reserved {quantity} of 
+Lot# {{auctionID}} : {{auctionName}}.
+
+This is a Deal of the Week item and you have 15 minutes complete the payment proccess otherwise, your reserve will expire.
+
+{{paymentlink}}
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+Copyright {{copyrightDate}} {{CompanyName}}, {{CompanyAddress}}

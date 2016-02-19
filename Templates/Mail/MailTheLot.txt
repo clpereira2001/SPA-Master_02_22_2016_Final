@@ -1,0 +1,25 @@
+﻿Send this lot to your friend
+
+You freind:
+{{firstName}} {{lastName}},
+email {{ownerEmail}}
+
+Message:
+{{messageText}}
+
+
+If you would like to visit on this auction
+please follow this link:
+
+{{auctionUrl}}
+
+
+
+Thank you,
+{{siteName}}
+{{siteUrl}}
+{{siteEmail}}
+
+{{CompanyName}}, {{CompanyAddress}}
+Copyright {{copyrightDate}}
+
