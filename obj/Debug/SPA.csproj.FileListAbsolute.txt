@@ -12,3 +12,17 @@ C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\bin\Microsoft.WindowsFabric.C
 C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\bin\UniMail.pdb
 C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\obj\Debug\Vauction.dll
 C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\obj\Debug\Vauction.pdb
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Vauction.dll.config
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Vauction.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Vauction.pdb
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\EPPlus.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Microsoft.ApplicationServer.Caching.Client.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Microsoft.ApplicationServer.Caching.Core.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Microsoft.Web.DistributedCache.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\UniMail.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Microsoft.WindowsFabric.Data.Common.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\Microsoft.WindowsFabric.Common.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\bin\UniMail.pdb
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\obj\Debug\SPA.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\obj\Debug\Vauction.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\obj\Debug\Vauction.pdb

@@ -2,3 +2,8 @@ C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\Utils\Mailer\bin\Debug\UniMai
 C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\Utils\Mailer\bin\Debug\UniMail.pdb
 C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\Utils\Mailer\obj\Debug\UniMail.dll
 C:\Users\Alan\Desktop\eSportsDNA\SPA-master\source\Utils\Mailer\obj\Debug\UniMail.pdb
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\Utils\Mailer\bin\Debug\UniMail.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\Utils\Mailer\bin\Debug\UniMail.pdb
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\Utils\Mailer\obj\Debug\UniMail.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\Utils\Mailer\obj\Debug\UniMail.dll
+C:\Users\Alan\Desktop\eSportsDNA1\SPA-master\source\Utils\Mailer\obj\Debug\UniMail.pdb

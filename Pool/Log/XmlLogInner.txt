@@ -19968,3 +19968,755 @@ System.Web.HttpException (0x80004005): A public action method 'public' was not f
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 	]]></Message>
 </Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 2:44:29 PM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 2:44:29 PM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 2:44:34 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 3:18:15 PM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 3:18:15 PM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:18:21 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:19:17 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/EventCategory/5371/Artifacts-African-Artifacts]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:19:24 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:19:38 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/EventCategory/5378/Coins-and-Currency-Coins-1_2c-20c-and-Colonials]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:19:55 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/EventCategory/5336/Art-American]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:10 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:15 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/EventDetailed/323/Internet-Auction-623]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:21 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/FeaturedItems/323/Internet-Auction-623]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:27 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/FeaturedItems/323/Internet-Auction-623]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:31 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/FeaturedItems/323/Internet-Auction-623]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:36 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/FeaturedItems/323/Internet-Auction-623]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:20:48 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/FeaturedItems/323/Internet-Auction-623?page=2]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:21:07 PM</DateTime>
+	<Message><![CDATA[
+	[/Auction/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Auction/EventCategory/5409/Musical-Instruments]
+In System.Web.Mvc application exception A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): A public action method 'public' was not found on controller 'Vauction.Controllers.AuctionController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.ExecuteCore()
+   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)
+   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__4()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 3:31:34 PM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 3:31:34 PM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:31:37 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:32:09 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/19/2016 3:32:23 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/19/2016 3:32:37 PM</DateTime>
+	<Message><![CDATA[
+	[LOG-IN] Id: 1 | Email: admin@clicktechnologies.com | IP: ::1 | Local IP: ::1 | SessionID: wsxyx4qj0bstjebadpyfwfhk
+			User Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/20/2016 1:16:24 PM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/20/2016 1:16:24 PM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/20/2016 1:16:56 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/20/2016 1:19:04 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/21/2016 12:18:12 PM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/21/2016 12:18:12 PM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/21/2016 12:19:01 PM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:01:11 AM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:01:11 AM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:01:17 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:04:26 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/ContactUs]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:04:30 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/FAQs]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:04:50 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:05:08 AM</DateTime>
+	<Message><![CDATA[
+	[LOG-IN] Id: 171064 | Email: jgerhoff@comcast.net | IP: ::1 | Local IP: ::1 | SessionID: ggkkmh05e3qndkaocmcdalwk
+			User Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:05:17 AM</DateTime>
+	<Message><![CDATA[
+	[LOG-OUT] Id: 171064 | Email: jgerhoff@comcast.net | IP: ::1 | Local IP: ::1 | SessionID: 11abyynvkchgotkw553boehu
+			User Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:05:17 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:10:43 AM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:10:43 AM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:10:47 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:10:51 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:11:13 AM</DateTime>
+	<Message><![CDATA[
+	[LOG-IN] Id: 1 | Email: admin@clicktechnologies.com | IP: ::1 | Local IP: ::1 | SessionID: r0rvht35z5xpqpsqkgc5jhjl
+			User Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:27:43 AM</DateTime>
+	<Message><![CDATA[
+	Init: Memory Cache
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:27:43 AM</DateTime>
+	<Message><![CDATA[
+	Application starting
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:27:45 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Home/Index]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:27:49 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Exception</Category>
+	<DateTime>2/22/2016 11:27:58 AM</DateTime>
+	<Message><![CDATA[
+	[/public/scripts/public/scripts/jquery.jqGrid.min.js | ::1 |  | Chrome-36.0 | http://localhost:65278/Account/LogOn]
+In System.Web.Mvc application exception The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController. occured.
+StackTrace:
+System.Web.HttpException (0x80004005): The controller for path '/public/scripts/public/scripts/jquery.jqGrid.min.js' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	]]></Message>
+</Log>
+<Log>
+	<Category>Info</Category>
+	<DateTime>2/22/2016 11:28:13 AM</DateTime>
+	<Message><![CDATA[
+	[LOG-IN] Id: 193665 | Email: smartroot@seizedpropertyauctions.com | IP: ::1 | Local IP: ::1 | SessionID: 3na1rfg2zgfu5elzp1vpql3c
+			User Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+	]]></Message>
+</Log>
