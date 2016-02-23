@@ -43,7 +43,7 @@
                     <%=(isDemo) ? "<a href='#' class='dropdown-toggle' data-toggle='dropdown'>Auction Events</a>" : Html.ActionLink("Auction Events", "Index", "Event").ToNonSslLink()%>
 
 
-                    <% if (lstCategoryParentChild != null && lstCategoryParentChild.Count > 0)
+                    <% if (lstCategoryParentChild != null && lstCategoryParentChild.Count > 0 && 1 == 0)
                        {%>
                     <div class="dropdown-menu col-sm-12 padding-vertical-lg">
 

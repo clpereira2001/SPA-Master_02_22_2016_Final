@@ -16,7 +16,8 @@
        <%using (Html.BeginForm("Search", "Home", FormMethod.Get, new { @id = "formSearch", @class = "form-inline text-right search-block" })) {%>        
            
              
-           <label for="search" class="text-uppercase text-white hidden-xs">want to Sell? consign NOW</label>
+<%--           <label for="search" class="text-uppercase text-white hidden-xs">want to Sell? consign NOW</label>--%>
+            <a href="<%= Url.Action("ConsignNow", "Consignor") %>" class="text-uppercase text-white hidden-xs">want to Sell? Consign Now</a>
             <br>
             <div class="form-group">
                 <div class="input-group">

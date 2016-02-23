@@ -118,7 +118,7 @@
                         <li><a href="<%= Url.Action("LogOn", "Account") %>" id="sign-in"><i class="fa fa-gavel"></i><span class="hidden-xs">Sign in</span></a></li>
                         <li><a href="<%= Url.Action("Register", "Account") %>"><i class="fa fa-key visible-xs"></i><span class="hidden-xs">Register</span></a></li>
                         <li class="last"><a href="<%= Url.Action("Profile", "Account") %>"><i class="fa fa-user visible-xs"></i><span class="hidden-xs">My account</span></a></li>
-                        <li class="email-join"><a href="<%= Url.Action("FreeEmailAlertsRegister", "Home") %>"><i class="fa fa-envelope-o"></i><span class="hidden-xs">Join our email list</span></a></li>
+                        <li class="email-join"><a href="<%= Url.Action("FreeEmailAlertsRegister", "Home") %>"><i class="fa fa-envelope-o"></i><span class="hidden-xs">&nbsp;Join our email list</span></a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4 col-xs-5">
@@ -143,6 +143,7 @@
 				<div class="padding-vertical-sm title-slogan">
 					<p class="text-uppercase h4">OFFICIAL WEBSITE OF FEDERAL ASSET RECOVERY</p>
 					<p class="text-uppercase h3">SEIZED PROPERTY AUCTIONS.COM</p>
+                    <p>A PRIVATE CORPORATION</p>
 				</div>
 			</div>
 			<div class="col-md-5">
@@ -207,7 +208,7 @@
                             </a>
                         </div>
                         <div class="col-md-12 col-sm-6">
-                            <a href="#">
+                            <a href="/Home/ResourceCenter">
                                 <img src="<%=AppHelper.CompressImage("img-03.jpg")%>" class="img-full" alt="" />
                             </a>
                         </div>
