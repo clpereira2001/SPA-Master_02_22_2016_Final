@@ -15,15 +15,15 @@
                 <div class="well well-lg bg-white">
                     <% if (currentEvent != null && currentEvent.IsCurrent)
                        { %>
-                    <br />
+                   <%-- <br />--%>
                      
-                    <h4><%= Html.ActionLink(currentEvent.Title, "EventDetailed", new { controller = "Auction", action = "EventDetailed", id = currentEvent.ID, evnt=currentEvent.UrlTitle })%></h4>
+<%--                    <h4><%= Html.ActionLink(currentEvent.Title, "EventDetailed", new { controller = "Auction", action = "EventDetailed", id = currentEvent.ID, evnt=currentEvent.UrlTitle })%></h4>
                     <div style="clear: both; text-align: justify;">
                         <p><strong>When:</strong><%=currentEvent.StartEndTime %></p>
                         <%= currentEvent.Description%><br />
                         <%= Html.ActionLink("Click here to enter auction", "EventDetailed", new { controller = "Auction", action = "EventDetailed", id = currentEvent.ID, evnt=currentEvent.UrlTitle }, new {@class="event_click_here" })%>
                     </div>
-                    <br />
+                    <br />--%>
                     <% } %>
 <%--                    <% Html.RenderAction("pIndex", "Event", new { event_id = currentEvent.ID, isa = (cuser != null && cuser.IsAccessable), iscurrent = currentEvent.IsCurrent });%>--%>
                 <%  if (currentEvent != null)
