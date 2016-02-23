@@ -24,7 +24,7 @@ namespace Vauction.Models.Enums
                 new Field() { ControllerKey = "Home", ActionKey="SiteMap",  LabelText = "Site Map" },
                 new Field() { ControllerKey = "Home", ActionKey="ResourceCenter",  LabelText = "Resource Center" },
                 new Field() { ControllerKey = "Home", ActionKey="ContactUs",  LabelText = "Contact Us" },
-                 new Field() { ControllerKey = "Event", ActionKey="Index",  LabelText = "Event" },
+                 new Field() { ControllerKey = "Event", ActionKey="Index",  LabelText = "Auction Events" },
                    new Field() { ControllerKey = "Home", ActionKey="ContactUs",  LabelText = "Contact Us" },
                      new Field() { ControllerKey = "Home", ActionKey="FreeEmailAlertsRegister",  LabelText = "Register for free email alerts" },
                       new Field() { ControllerKey = "Account", ActionKey="Profile",  LabelText = "Personal Information" },
