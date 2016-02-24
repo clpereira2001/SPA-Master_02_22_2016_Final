@@ -41,7 +41,7 @@
             Session["AUCTIONDETAIL"] = "";
     %>
     <% if (Session["AUCTIONDETAIL"].ToString() == "AUCTIONDETAIL")
-        {%>
+       {%>
     <script type="text/javascript" src="/public/Scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="/public/scripts/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="/public/scripts/jquery-1.9.1.min.js"></script>
@@ -52,8 +52,8 @@
     <%
             Session["AUCTIONDETAIL"] = "";
         }
-        else
-        { %>
+       else
+       { %>
     <script type="text/javascript" src="/public/Scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="/public/scripts/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="/public/scripts/jquery-1.9.1.min.js"></script>
@@ -68,15 +68,15 @@
 
     <% if (!Request.IsSecureConnection) Html.Script("adds.js"); %>
     <% decimal version; bool isIE = Decimal.TryParse(Request.Browser.Version, out version) && Request.Browser.Browser == "IE";
-        if (isIE) Html.Style("ie.css");
+       if (isIE) Html.Style("ie.css");
     %>
 
     <% if (AppHelper.CurrentUser == null)
-        {
+       {
 
-            Html.StyleUrl("/public/css/custom-gray/jquery-ui-1.7.2.css");
-            Html.Script("jquery-ui-1.9.2.min.js");
-        }%>
+           Html.StyleUrl("/public/css/custom-gray/jquery-ui-1.7.2.css");
+           Html.Script("jquery-ui-1.9.2.min.js");
+       }%>
 
     <!--[if IE 6]>
   <link href="<%=ResolveUrl("../../public/css/ie6.css") %>" rel="stylesheet" type="text/css">
@@ -105,9 +105,9 @@
 
 
     <% bool isDemo = false; // (ViewData["DEMO_MODE"] != null) && Convert.ToBoolean(ViewData["DEMO_MODE"]);
-        SessionUser cuser = AppHelper.CurrentUser;
-        EventDetail currentEvent = ViewData["CurrentEvent"] as EventDetail;
-        bool userregforevent = ViewData["UserRegisterForEvent"] != null && Convert.ToBoolean(ViewData["UserRegisterForEvent"]);
+       SessionUser cuser = AppHelper.CurrentUser;
+       EventDetail currentEvent = ViewData["CurrentEvent"] as EventDetail;
+       bool userregforevent = ViewData["UserRegisterForEvent"] != null && Convert.ToBoolean(ViewData["UserRegisterForEvent"]);
 
     %>
     <div id="toolbar">
@@ -143,7 +143,7 @@
 				<div class="padding-vertical-sm title-slogan">
 					<p class="text-uppercase h4">OFFICIAL WEBSITE OF FEDERAL ASSET RECOVERY</p>
 					<p class="text-uppercase h3">SEIZED PROPERTY AUCTIONS.COM</p>
-                    <p>A PRIVATE CORPORATION</p>
+                    <p>A PRIVATE CORPORATION.</p>
 				</div>
 			</div>
 			<div class="col-md-5">
@@ -169,14 +169,14 @@
             <%  Html.RenderPartial("UserDeckControl");  %>
         </div>
         <% if (ViewData["IsHomePage"] == null && Convert.ToBoolean(ViewData["IsHomePage"]) == false)
-            {%>
+           {%>
         <div id="ab">
             <% Html.RenderPartial("_TopUserControl", Convert.ToString(ViewData["ContentPageHeader"])); %>
         </div>
 
         <%} %>
         <% if (ViewData["IsHomePage"] != null && Convert.ToBoolean(ViewData["IsHomePage"]))
-            {%>
+           {%>
         <div class="container margin-top-xl" id="pageContent">
             <div class="row">
                 <div class="col-md-9 col-sm-12 margin-767-bottom-xl">
@@ -203,13 +203,14 @@
                 <div class="col-md-3 col-sm-12  hidden-xs">
                     <div class="row">
                         <div class="col-md-12 col-sm-6 margin-bottom-xl">
-                            <a href="#">
+                            <a href="<%= Url.Action ("AdvancedSearch", "Home",new { @id = "formSearch", @class = "form-inline text-right search-block" })%>">
+                                <%--<%= Html.ActionLink("Advanced Search", "AdvancedSearch", "Home", new { @class="btn btn-primary search-button" }).ToNonSslLink()%>--%>
                                 <img src="<%=AppHelper.CompressImage("img-02.jpg")%>" class="img-full" alt="" />
                             </a>
                         </div>
                         <div class="col-md-12 col-sm-6">
-                            <a href="/Home/ResourceCenter">
-                                <img src="<%=AppHelper.CompressImage("img-03.jpg")%>" class="img-full" alt="" />
+                            <a href="#">
+                                <img src="<%=AppHelper.CompressImage("img-03.jpg")%>" class="img-full" alt="" /> 
                             </a>
                         </div>
                     </div>
@@ -223,7 +224,7 @@
             <div id="row">
                 <asp:ContentPlaceHolder ID="subMenu" runat="server" />
                 <% if (!Convert.ToBoolean(ViewData["IsLogON"]))
-                    { %>
+                   { %>
                 <div id="left_sidebar" class="col-md-3 col-sm-4">
                     <% Html.RenderPartial("LeftMenuControl"); %>
                 </div>
@@ -234,7 +235,7 @@
                 </div>
 
                 <% if (cuser == null)
-                    {%>
+                   {%>
                 <script type="text/javascript" src="../../public/scripts/jquery-1.9.1.min.js;../../public/scripts/jquery.jqGrid.min.js">
                 $("#form_login").dialog({
                     bgiframe: true,
@@ -265,7 +266,7 @@
                     </div>
                 </div>
                 <% if (!isDemo)
-                    {%>
+                   {%>
                 <%--<div class="span-24 space"> &nbsp;</div>
       <div id="bottom_menu" class="span-24">
         <div class="prepend-1 span-23 last">
@@ -316,7 +317,7 @@
 							<li><a href="#">Contact Us</a></li>--%>
                             <li><%=Html.ActionLink("Home", "Index", "Home").ToNonSslLink() %></li>
                             <% if (Request.IsAuthenticated)
-                                { %>
+                               { %>
                             <li><%= Html.ActionLink("My Account", "MyAccount", "Account").ToSslLink() %></li>
 
                             <% } %>
@@ -326,7 +327,7 @@
                             <li><%= Html.ActionLink("Contact Us", "ContactUs", "Home").ToNonSslLink() %></li>
     
                             <% if (Request.IsAuthenticated)
-                                { %>
+                               { %>
                             <li><%= Html.ActionLink("Register", "Register", "Account").ToSslLink() %></li>
                             <% } %>
                             <li><%= Html.ActionLink("Site Map", "SiteMap", "Home").ToNonSslLink() %></li>
