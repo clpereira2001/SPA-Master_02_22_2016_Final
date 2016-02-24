@@ -7,17 +7,17 @@
     if (!Model.Any())
     {%>
 <div class="grid-col-block list-col-view">
-    
-     
-         
-            <div>&nbsp;</div>
+
+
+
+    <div>&nbsp;</div>
     <% }
     else
     {%>
-    <div id="item_view" class="grid-col product-box list-view">
 
-       
-            <%                 
+
+
+    <%                 
         bool isDemo = false; // (ViewData["DEMO_MODE"] != null) ? Convert.ToBoolean(ViewData["DEMO_MODE"]) : false;
         int featuredCount = 0;
         string address, strPrice;
@@ -31,43 +31,42 @@
                 featuredCount = 0;
             }
             strPrice = (Consts.IsShownOpenBidOne) ? (!isUserRegisteredForEvent ? "$1.00" : item.Price.GetCurrency()) : item.Price.GetCurrency();
-            %>
+    %>
+    <div id="item_view" class="grid-col product-box list-view">
+        <div class="thumbnail">
+            <% address = AppHelper.AuctionImage(item.LinkParams.ID, item.ThumbnailPath);
+               if (System.IO.File.Exists(Server.MapPath(address)))
+               {
+                   if (item.IsClickable || isDemo || item.IsAccessable)
+                   {%>
+            <a href="<%= Url.Action ("AuctionDetail", (isDemo?"Preview":"Auction"), new CollectParameters((isDemo?"Preview":"Auction"), "AuctionDetail", item.LinkParams.ID, item.LinkParams.EventUrl, item.LinkParams.CategoryUrl, item.LinkParams.LotTitleUrl).Collect("page", "ViewMode"))%>" title="<%=item.LinkParams.LotTitle %>">
+                <%} %>
+                <img src="<%=AppHelper.CompressImagePath(address)%>" alt="" />
+                <%if (item.IsClickable || isDemo || item.IsAccessable)
+                  {%>
+            </a>
+            <%}
+               }
+               else
+               {%> <a href="#">
+                   <img src="<%=AppHelper.CompressImagePath(address)%>" alt="" /></a><%}%>
 
-            <div class="thumbnail">
-
-
-                <% address = AppHelper.AuctionImage(item.LinkParams.ID, item.ThumbnailPath);
-                   if (System.IO.File.Exists(Server.MapPath(address)))
-                   {
-                       if (item.IsClickable || isDemo || item.IsAccessable)
-                       {%>
-                <a href="<%= Url.Action ("AuctionDetail", (isDemo?"Preview":"Auction"), new CollectParameters((isDemo?"Preview":"Auction"), "AuctionDetail", item.LinkParams.ID, item.LinkParams.EventUrl, item.LinkParams.CategoryUrl, item.LinkParams.LotTitleUrl).Collect("page", "ViewMode"))%>" title="<%=item.LinkParams.LotTitle %>">
-                    <%} %>
-                    <img src="<%=AppHelper.CompressImagePath(address)%>" alt="" />
-                    <%if (item.IsClickable || isDemo || item.IsAccessable)
-                      {%>
-                </a>
-                <%}
-                   }
-                   else Response.Write("&nbsp;"); 
-                %>
-
-                <div class="caption">
-                    <div class="list-visible">
+            <div class="caption">
+                <div class="list-visible">
+                    <p class="title-product">
                         <%=item.IsBold?"<b>":String.Empty %>
                         <%=(!item.IsClickable && !isDemo && !item.IsAccessable) ? item.LinkParams.Title : Html.ActionLink(item.LinkParams.Title, "AuctionDetail", new { controller = (isDemo ? "Preview" : "Auction"), action = "AuctionDetail", id = item.LinkParams.ID, evnt = item.LinkParams.EventUrl, cat = item.LinkParams.CategoryUrl, lot = item.LinkParams.LotTitleUrl }).ToHtmlString() %>
                         <%=item.IsBold?"</b>":String.Empty %>
-                    </div>
+                    </p>
+                  <%--  <p class="product-description"><%= item.LinkParams.Title %></p>--%>
                 </div>
-                <div class="list-price" id='tbl_res_row_<%=item.LinkParams.ID %>'>
-                    <%=item.IsBold?"<b>":String.Empty %>
+                <div class="list-price">
                     <p class="text-uppercase">
                         Opening bid
                         <br>
                         <span id="cv_cb_<%=item.LinkParams.ID %>" class="text-primary text-weight-700 text-md"><%= (isUserRegisteredForEvent && item.IsUserRegisteredForEvent) ? ((!item.HasBid) ? item.Price.GetCurrency() : item.CurrentBid) : strPrice %></span>
                         <%=item.IsBold?"</b>":String.Empty %>
                     </p>
-
                     <p>
                         <% if (item.IsClickable || isDemo || item.IsAccessable)
                            {%>
@@ -79,8 +78,35 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <%--   <tr>
+
+    <%--<div class="thumbnail">
+
+
+           
+
+            <div class="caption">
+                <div class="list-visible">
+                 
+                </div>
+            </div>
+            <div class="list-price" id='tbl_res_row_<%=item.LinkParams.ID %>'>
+                <%=item.IsBold?"<b>":String.Empty %>
+                <p class="text-uppercase">
+                    Opening bid
+                        <br>
+                   
+                </p>
+
+                <p>
+                   
+                </p>
+            </div>
+        </div>--%>
+
+    <%--   <tr>
 
                 <td>&nbsp;</td>
                 <td style='text-align: center'>
@@ -93,10 +119,9 @@
                     <%} %>
                 </td>
             </tr>--%>
-            <% line = !line; %>
-            <%}%>
-        </div>
-    </div>
+    <% line = !line; %>
+    <%}%>
+</div>
 
 
 
